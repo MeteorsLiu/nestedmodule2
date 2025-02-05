@@ -1,5 +1,5 @@
-const parseGitPatch = require('parse-git-patch')
-
+const parseGitPatch = require('parse-git-patch');
+const fs = require('fs');
 
 const pr = JSON.parse( fs.readFileSync('current.json', 'utf-8'))
 
