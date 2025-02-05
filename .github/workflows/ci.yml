@@ -72,7 +72,7 @@ jobs:
           sha: ${{ github.event.pull_request.head.sha }}
       - name: Get PR JSON
         run: |
-          echo ${prJSON} > current.json
+          echo ${prJSON} > ./testscript/current.json
         if: steps.PR.outputs.pr_found == 'true'
         env:
           # JSON object with the full PR object
