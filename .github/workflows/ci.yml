@@ -70,7 +70,9 @@ jobs:
         id: PR
         with:
           sha: ${{ github.event.pull_request.head.sha }}
-      - run: echo "PR ${prNumber} ${prTitle} at ${prUrl} is ${prJSON}"
+      - name: Get PR JSON
+        run: |
+          echo ${prJSON} > current.json
         if: steps.PR.outputs.pr_found == 'true'
         env:
           # JSON object with the full PR object
@@ -85,3 +87,13 @@ jobs:
           prMergedAt: ${{ steps.PR.outputs.pr_merged_at }}
           prClosedAt: ${{ steps.PR.outputs.pr_closed_at }}
           prLabel: ${{ steps.PR.outputs.pr_labels }}
+      - name: Setup Node.js
+        id: setup-node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm i -g parse-git-patch
+      - name: Get PR JSON
+        run: |
+          node ./testscript/x.js
