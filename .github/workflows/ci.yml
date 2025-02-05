@@ -92,7 +92,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
-      - run: npm i -g parse-git-patch
+          cache: npm
       - name: Get PR JSON
         run: |
-          node ./testscript/x.js
+          cd ./testscript
+          npm i
+          node x.js
