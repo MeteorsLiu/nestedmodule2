@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  test-javascript:
+  llcppg-generate:
     name: JavaScript Tests
     strategy:
       matrix:
@@ -28,7 +28,6 @@ jobs:
       #   uses: actions/setup-go@v4
       #   with:
       #     go-version: "1.23"
-
       # - name: Install dependencies
       #   if: startsWith(matrix.os, 'macos')
       #   run: |
@@ -36,10 +35,8 @@ jobs:
       #     brew install llvm@${{ matrix.llvm }} bdw-gc openssl libffi
       #     brew link --force libffi
       #     echo "$(brew --prefix llvm@${{ matrix.llvm }})/bin" >> $GITHUB_PATH
-
       #     # llcppg dependencies
       #     brew install cjson
-
       # - name: Install dependencies
       #   if: startsWith(matrix.os, 'ubuntu')
       #   run: |
@@ -66,34 +63,26 @@ jobs:
       #     go install ./cmd/llcppcfg
       #     go install ./cmd/gogensig
       #     go install .
-      - uses: 8BitJonny/gh-get-current-pr@3.0.0
-        id: PR
-        with:
-          sha: ${{ github.event.pull_request.head.sha }}
-      - name: Get PR JSON
-        run: |
-          echo ${prJSON} > ./testscript/current.json
-        if: steps.PR.outputs.pr_found == 'true'
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
+        # with:
+        #   since_last_remote_commit: true
+
+      - name: List all changed files
         env:
-          # JSON object with the full PR object
-          # toJSON(fromJSON(...pr)) parses it into memory and then format is with pretty-print.
-          prJSON: ${{ toJSON(fromJSON(steps.PR.outputs.pr)) }}
-          # Direct access to common PR properties
-          prNumber: ${{ steps.PR.outputs.number }}
-          prUrl: ${{ steps.PR.outputs.pr_url }}
-          prTitle: ${{ steps.PR.outputs.pr_title }}
-          prBody: ${{ steps.PR.outputs.pr_body }}
-          prCreatedAt: ${{ steps.PR.outputs.pr_created_at }}
-          prMergedAt: ${{ steps.PR.outputs.pr_merged_at }}
-          prClosedAt: ${{ steps.PR.outputs.pr_closed_at }}
-          prLabel: ${{ steps.PR.outputs.pr_labels }}
-      - name: Setup Node.js
-        id: setup-node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: .node-version
-      - name: Get PR JSON
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          cd ./testscript
-          npm i
-          node x.js
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
+
+  # combineall:
+  #   name: File Combination
+  #   needs: [llcppg-generate]
+  #   if: |
+  #     always() &&
+  #     !contains(needs.*.result, 'failure') &&
+  #     !contains(needs.*.result, 'cancelled')
+  #   uses: MeteorsLiu/combinejobs@v0.0.1
