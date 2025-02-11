@@ -86,8 +86,7 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           nestedscript
-          ls cjson3
-          cat cjson3/*
+          ls cjson3/libcjson
 
   # combineall:
   #   name: File Combination
