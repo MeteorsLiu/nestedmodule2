@@ -49,9 +49,12 @@ jobs:
           echo "deb http://apt.llvm.org/$(lsb_release -cs)/ llvm-toolchain-$(lsb_release -cs)-${{ matrix.llvm }} main" | sudo tee /etc/apt/sources.list.d/llvm.list
           wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
           sudo apt-get update
-          sudo apt-get install -y python3 llvm-${{ matrix.llvm }}-dev clang-${{ matrix.llvm }} libunwind-dev libclang-${{ matrix.llvm }}-dev lld-${{ matrix.llvm }} cmake pkg-config libgc-dev libssl-dev zlib1g-dev libffi-dev libcjson-dev
+          sudo apt-get install -y python3 python3-pip llvm-${{ matrix.llvm }}-dev clang-${{ matrix.llvm }} libunwind-dev libclang-${{ matrix.llvm }}-dev lld-${{ matrix.llvm }} cmake pkg-config libgc-dev libssl-dev zlib1g-dev libffi-dev libcjson-dev
           echo "/usr/lib/llvm-${{ matrix.llvm }}/bin" >> $GITHUB_PATH
           python3 -m pip install conan
+      - name: Check conan
+        run: |
+          conan -help
       - name: Install LLGO
         run: |
           git clone https://github.com/goplus/llgo.git
