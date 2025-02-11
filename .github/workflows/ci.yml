@@ -87,6 +87,7 @@ jobs:
         run: |
           nestedscript
           ls cjson3
+          cat cjson3/*
 
   # combineall:
   #   name: File Combination
