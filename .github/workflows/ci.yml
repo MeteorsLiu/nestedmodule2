@@ -28,9 +28,12 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: "1.23"
+      - name: Skip Cache Parser Tool
+        run: |
+          go env -w GOPRIVATE=github.com/MeteorsLiu/nestedscript
       - name: Set up Parser Tool
         run: |
-          go install -v github.com/MeteorsLiu/nestedscript@ba2ea46a1a21578a65483116366b129fdc67e886
+          go install -v github.com/MeteorsLiu/nestedscript@latest
       # - name: Install dependencies
       #   if: startsWith(matrix.os, 'macos')
       #   run: |
