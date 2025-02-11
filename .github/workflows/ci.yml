@@ -79,6 +79,7 @@ jobs:
 
       - name: List all changed files
         env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           nestedscript
