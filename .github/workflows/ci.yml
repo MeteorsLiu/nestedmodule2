@@ -54,7 +54,7 @@ jobs:
           python3 -m pip install conan
       - name: Check conan
         run: |
-          conan -help
+          conan -v
       - name: Install LLGO
         run: |
           git clone https://github.com/goplus/llgo.git
