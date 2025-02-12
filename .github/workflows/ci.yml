@@ -80,13 +80,18 @@ jobs:
         # with:
         #   since_last_remote_commit: true
 
-      - name: List all changed files
+      - name: Generate Go Module
+        id: gen-go-module
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           nestedscript
-          cat cjson3/libcjson/*
+      - name: Upload to artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.gen-go-module.outputs.current_artifact_name }}
+          path: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
 
   # combineall:
   #   name: File Combination
