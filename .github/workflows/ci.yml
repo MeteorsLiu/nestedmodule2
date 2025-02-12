@@ -88,8 +88,12 @@ jobs:
         run: |
           nestedscript
       - name: Upload to artifact
+        env:
+          LLCPPG_PATH: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
+          NAME: steps.gen-go-module.outputs.current_artifact_name
         run: |
-          echo ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
+          echo ${{ env.LLCPPG_PATH }}
+          echo ${{ env.NAME }}
 
   # combineall:
   #   name: File Combination
