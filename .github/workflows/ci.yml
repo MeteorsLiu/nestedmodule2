@@ -87,6 +87,8 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           nestedscript
+          echo "LLCPPG_ABS_PATH=$LLCPPG_ABS_PATH" >> $GITHUB_ENV
+          echo "ARTIFACT_NAME=$ARTIFACT_NAME" >> $GITHUB_ENV
 
       - name: Upload to artifact
         run: |
