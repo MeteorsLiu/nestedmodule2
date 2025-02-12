@@ -92,7 +92,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: llcppg-production
-          path: ${{ LLCPPG_ABS_PATH }}
+          path: ${{ env.LLCPPG_ABS_PATH }}
   llcppg-combine:
     name: Combine Platform
     needs: [llcppg-generate]
