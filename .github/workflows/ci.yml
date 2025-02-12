@@ -85,12 +85,15 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        outputs:
+          llcppg_current_dir: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
+          current_artifact_name: ${{ steps.gen-go-module.outputs.current_artifact_name }}
         run: |
           nestedscript
       - name: Upload to artifact
         env:
           LLCPPG_PATH: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
-          NAME: steps.gen-go-module.outputs.current_artifact_name
+          NAME: ${{ steps.gen-go-module.outputs.current_artifact_name }}
         run: |
           echo ${{ env.LLCPPG_PATH }}
           echo ${{ env.NAME }}
