@@ -88,10 +88,8 @@ jobs:
         run: |
           nestedscript
       - name: Upload to artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ steps.gen-go-module.outputs.current_artifact_name }}
-          path: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
+        run: |
+          echo ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
 
   # combineall:
   #   name: File Combination
