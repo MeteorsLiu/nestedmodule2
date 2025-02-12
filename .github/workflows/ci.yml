@@ -90,13 +90,12 @@ jobs:
           current_artifact_name: ${{ steps.gen-go-module.outputs.current_artifact_name }}
         run: |
           nestedscript
+          echo "llcppg_current_dir=$CURRENT_ARTIFACT_NAME" >> $GITHUB_OUTPUT
+          echo "current_artifact_name=$LLCPPG_CURRENT_DIR" >> $GITHUB_OUTPUT
       - name: Upload to artifact
-        env:
-          LLCPPG_PATH: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
-          NAME: ${{ steps.gen-go-module.outputs.current_artifact_name }}
         run: |
-          echo ${{ env.LLCPPG_PATH }}
-          echo ${{ env.NAME }}
+          echo ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
+          echo ${{ steps.gen-go-module.outputs.current_artifact_name }}
 
   # combineall:
   #   name: File Combination
