@@ -89,8 +89,10 @@ jobs:
           nestedscript
 
       - name: Upload to artifact
-        run: |
-          ls $LLCPPG_ABS_PATH/.llpkg
+        uses: actions/upload-artifact@v4
+        with:
+          name: llcppg-production
+          path: $LLCPPG_ABS_PATH
 
   # combineall:
   #   name: File Combination
