@@ -87,14 +87,11 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           nestedscript
-          ls cjson3/libcjson/*
-          cat cjson3/libcjson/*
-      # - name: Upload to artifact
-      #   env:
-      #     DIR: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
-      #   run: |
-      #     echo ${{ steps.gen-go-module.outputs }}
-      #     echo ${{ steps.gen-go-module.outputs.current_artifact_name }}
+
+      - name: Upload to artifact
+        run: |
+          echo $LLCPPG_ABS_PATH
+          echo $ARTIFACT_NAME
 
   # combineall:
   #   name: File Combination
