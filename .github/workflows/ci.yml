@@ -87,9 +87,6 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           nestedscript
-          echo "llcppg_current_dir=$CURRENT_ARTIFACT_NAME" >> $GITHUB_OUTPUT
-          echo "current_artifact_name=$LLCPPG_CURRENT_DIR" >> $GITHUB_OUTPUT
-          echo "llcppg_current_dir=$CURRENT_ARTIFACT_NAME"
       - name: Upload to artifact
         run: |
           echo ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
