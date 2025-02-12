@@ -91,7 +91,7 @@ jobs:
         env:
           DIR: ${{ steps.gen-go-module.outputs.llcppg_current_dir }}
         run: |
-          echo ${{ env.DIR }}
+          echo ${{ steps.gen-go-module.outputs }}
           echo ${{ steps.gen-go-module.outputs.current_artifact_name }}
 
   # combineall:
