@@ -90,8 +90,8 @@ jobs:
 
       - name: Upload to artifact
         run: |
-          echo ${{ LLCPPG_ABS_PATH }}
-          echo ${{ ARTIFACT_NAME }}
+          echo "$LLCPPG_ABS_PATH"
+          echo "$ARTIFACT_NAME"
 
   # combineall:
   #   name: File Combination
