@@ -91,8 +91,11 @@ jobs:
       - name: Upload to artifact
         uses: actions/upload-artifact@v4
         with:
-          name: llcppg-production
+          name: ${{ env.ARTIFACT_NAME }}
           path: ${{ env.LLCPPG_ABS_PATH }}
+          retention-days: 1
+          overwrite: true
+          include-hidden-files: true
   llcppg-combine:
     name: Combine Platform
     needs: [llcppg-generate]
@@ -110,7 +113,7 @@ jobs:
       - name: Combine
         uses: actions/download-artifact@v4
         with:
-          name: llcppg-production
+          merge-multiple: true
       - name: List all files
         run: |
           ls
