@@ -37,7 +37,6 @@ jobs:
       - name: Install dependencies
         if: startsWith(matrix.os, 'macos')
         run: |
-          brew update
           brew install llvm@${{ matrix.llvm }} bdw-gc openssl libffi conan cmake
           brew link --force libffi
           echo "$(brew --prefix llvm@${{ matrix.llvm }})/bin" >> $GITHUB_PATH
@@ -92,7 +91,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: ${{ env.LLCPPG_ABS_PATH }}
+          path: |
+            ${{ env.LLCPPG_ABS_PATH }}
+            ${{ env.LLCPPG_ABS_PATH }}/.llpkg
           retention-days: 1
           overwrite: true
           include-hidden-files: true
