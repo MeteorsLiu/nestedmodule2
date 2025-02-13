@@ -114,9 +114,9 @@ jobs:
       - name: Combine
         uses: actions/download-artifact@v4
         with:
-          path: ${{ steps.llcppg-generate.outputs.LLCPPG_ABS_PATH }}
+          path: ${{ needs.llcppg-generate.outputs.LLCPPG_ABS_PATH }}
           merge-multiple: true
       - name: List all files
         run: |
-          cd ${{ steps.llcppg-generate.outputs.LLCPPG_ABS_PATH }}
+          cd ${{ needs.llcppg-generate.outputs.LLCPPG_ABS_PATH }}
           ls
