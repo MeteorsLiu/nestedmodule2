@@ -118,5 +118,5 @@ jobs:
           merge-multiple: true
       - name: List all files
         run: |
-          cd ${{ needs.llcppg-generate.outputs.LLCPPG_ABS_PATH }}
+          cd ${{ needs.llcppg-generate.outputs.LLCPPG_PATH }}
           ls
