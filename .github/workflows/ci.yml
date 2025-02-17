@@ -67,6 +67,7 @@ jobs:
       - name: Install LLCppg
         run: |
           git clone https://github.com/goplus/llcppg.git
+          git reset --hard f1575e37589dc3d3605c5327a8b18789a312d2e7
           echo $PWD
           cd llcppg
           llgo install ./_xtool/llcppsymg
