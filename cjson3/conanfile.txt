@@ -1,0 +1,8 @@
+[requires]
+cjson/1.7.18
+	
+[options]
+*:shared=True
+
+[generators]
+PkgConfigDeps
