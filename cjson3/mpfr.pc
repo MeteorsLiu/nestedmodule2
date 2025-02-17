@@ -1,0 +1,11 @@
+prefix=/home/runner/.conan2/p/b/mpfrb9428f2632fa8/p
+libdir=${prefix}/lib
+includedir=${prefix}/include
+bindir=${prefix}/bin
+
+Name: mpfr
+Description: Conan package: mpfr
+Version: 4.2.1
+Libs: -L"${libdir}" -lmpfr
+Cflags: -I"${includedir}"
+Requires: gmp-all-do-not-use

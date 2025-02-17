@@ -1,0 +1,3033 @@
+[{
+		"mangle":	"__gmp_asprintf",
+		"c++":	"__gmp_asprintf(char **, const char *, ...)",
+		"go":	"X__GmpAsprintf"
+	}, {
+		"mangle":	"__gmp_get_memory_functions",
+		"c++":	"__gmp_get_memory_functions(void *(**)(size_t), void *(**)(void *, size_t, size_t), void (**)(void *, size_t))",
+		"go":	"X__GmpGetMemoryFunctions"
+	}, {
+		"mangle":	"__gmp_urandomb_ui",
+		"c++":	"__gmp_urandomb_ui(gmp_randstate_ptr, unsigned long)",
+		"go":	"X__GmpUrandombUi"
+	}, {
+		"mangle":	"__gmp_urandomm_ui",
+		"c++":	"__gmp_urandomm_ui(gmp_randstate_ptr, unsigned long)",
+		"go":	"X__GmpUrandommUi"
+	}, {
+		"mangle":	"__gmpf_neg",
+		"c++":	"__gmpf_neg(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfNeg"
+	}, {
+		"mangle":	"__gmpf_set_ui",
+		"c++":	"__gmpf_set_ui(mpf_ptr, unsigned long)",
+		"go":	"X__GmpfSetUi"
+	}, {
+		"mangle":	"__gmpn_add_n",
+		"c++":	"__gmpn_add_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnAddN"
+	}, {
+		"mangle":	"__gmpn_addmul_1",
+		"c++":	"__gmpn_addmul_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnAddmul1"
+	}, {
+		"mangle":	"__gmpn_com",
+		"c++":	"__gmpn_com(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnCom"
+	}, {
+		"mangle":	"__gmpn_copyd",
+		"c++":	"__gmpn_copyd(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnCopyd"
+	}, {
+		"mangle":	"__gmpn_copyi",
+		"c++":	"__gmpn_copyi(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnCopyi"
+	}, {
+		"mangle":	"__gmpn_divrem",
+		"c++":	"__gmpn_divrem(mp_ptr, mp_size_t, mp_ptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnDivrem"
+	}, {
+		"mangle":	"__gmpn_divrem_1",
+		"c++":	"__gmpn_divrem_1(mp_ptr, mp_size_t, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnDivrem1"
+	}, {
+		"mangle":	"__gmpn_get_str",
+		"c++":	"__gmpn_get_str(unsigned char *, int, mp_ptr, mp_size_t)",
+		"go":	"X__GmpnGetStr"
+	}, {
+		"mangle":	"__gmpn_lshift",
+		"c++":	"__gmpn_lshift(mp_ptr, mp_srcptr, mp_size_t, unsigned int)",
+		"go":	"X__GmpnLshift"
+	}, {
+		"mangle":	"__gmpn_mul",
+		"c++":	"__gmpn_mul(mp_ptr, mp_srcptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnMul"
+	}, {
+		"mangle":	"__gmpn_mul_1",
+		"c++":	"__gmpn_mul_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnMul1"
+	}, {
+		"mangle":	"__gmpn_mul_n",
+		"c++":	"__gmpn_mul_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnMulN"
+	}, {
+		"mangle":	"__gmpn_perfect_square_p",
+		"c++":	"__gmpn_perfect_square_p(mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnPerfectSquareP"
+	}, {
+		"mangle":	"__gmpn_popcount",
+		"c++":	"__gmpn_popcount(mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnPopcount"
+	}, {
+		"mangle":	"__gmpn_rshift",
+		"c++":	"__gmpn_rshift(mp_ptr, mp_srcptr, mp_size_t, unsigned int)",
+		"go":	"X__GmpnRshift"
+	}, {
+		"mangle":	"__gmpn_scan1",
+		"c++":	"__gmpn_scan1(mp_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpnScan1"
+	}, {
+		"mangle":	"__gmpn_set_str",
+		"c++":	"__gmpn_set_str(mp_ptr, const unsigned char *, size_t, int)",
+		"go":	"X__GmpnSetStr"
+	}, {
+		"mangle":	"__gmpn_sqr",
+		"c++":	"__gmpn_sqr(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnSqr"
+	}, {
+		"mangle":	"__gmpn_sqrtrem",
+		"c++":	"__gmpn_sqrtrem(mp_ptr, mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnSqrtrem"
+	}, {
+		"mangle":	"__gmpn_sub_n",
+		"c++":	"__gmpn_sub_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnSubN"
+	}, {
+		"mangle":	"__gmpn_submul_1",
+		"c++":	"__gmpn_submul_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnSubmul1"
+	}, {
+		"mangle":	"__gmpn_tdiv_qr",
+		"c++":	"__gmpn_tdiv_qr(mp_ptr, mp_ptr, mp_size_t, mp_srcptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnTdivQr"
+	}, {
+		"mangle":	"__gmpq_div_2exp",
+		"c++":	"__gmpq_div_2exp(mpq_ptr, mpq_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpqDiv2exp"
+	}, {
+		"mangle":	"__gmpq_set_ui",
+		"c++":	"__gmpq_set_ui(mpq_ptr, unsigned long, unsigned long)",
+		"go":	"X__GmpqSetUi"
+	}, {
+		"mangle":	"__gmpz_add",
+		"c++":	"__gmpz_add(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzAdd"
+	}, {
+		"mangle":	"__gmpz_add_ui",
+		"c++":	"__gmpz_add_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzAddUi"
+	}, {
+		"mangle":	"__gmpz_addmul",
+		"c++":	"__gmpz_addmul(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzAddmul"
+	}, {
+		"mangle":	"__gmpz_addmul_ui",
+		"c++":	"__gmpz_addmul_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzAddmulUi"
+	}, {
+		"mangle":	"__gmpz_cdiv_q",
+		"c++":	"__gmpz_cdiv_q(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCdivQ"
+	}, {
+		"mangle":	"__gmpz_cdiv_q_2exp",
+		"c++":	"__gmpz_cdiv_q_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzCdivQ2exp"
+	}, {
+		"mangle":	"__gmpz_cdiv_q_ui",
+		"c++":	"__gmpz_cdiv_q_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCdivQUi"
+	}, {
+		"mangle":	"__gmpz_clear",
+		"c++":	"__gmpz_clear(mpz_ptr)",
+		"go":	"X__GmpzClear"
+	}, {
+		"mangle":	"__gmpz_cmp",
+		"c++":	"__gmpz_cmp(mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCmp"
+	}, {
+		"mangle":	"__gmpz_cmp_si",
+		"c++":	"__gmpz_cmp_si(mpz_srcptr, long)",
+		"go":	"X__GmpzCmpSi"
+	}, {
+		"mangle":	"__gmpz_cmp_ui",
+		"c++":	"__gmpz_cmp_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCmpUi"
+	}, {
+		"mangle":	"__gmpz_cmpabs",
+		"c++":	"__gmpz_cmpabs(mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCmpabs"
+	}, {
+		"mangle":	"__gmpz_cmpabs_ui",
+		"c++":	"__gmpz_cmpabs_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCmpabsUi"
+	}, {
+		"mangle":	"__gmpz_divexact",
+		"c++":	"__gmpz_divexact(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzDivexact"
+	}, {
+		"mangle":	"__gmpz_divexact_ui",
+		"c++":	"__gmpz_divexact_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzDivexactUi"
+	}, {
+		"mangle":	"__gmpz_fac_ui",
+		"c++":	"__gmpz_fac_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzFacUi"
+	}, {
+		"mangle":	"__gmpz_fdiv_q",
+		"c++":	"__gmpz_fdiv_q(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzFdivQ"
+	}, {
+		"mangle":	"__gmpz_fdiv_q_2exp",
+		"c++":	"__gmpz_fdiv_q_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzFdivQ2exp"
+	}, {
+		"mangle":	"__gmpz_fdiv_q_ui",
+		"c++":	"__gmpz_fdiv_q_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzFdivQUi"
+	}, {
+		"mangle":	"__gmpz_fdiv_ui",
+		"c++":	"__gmpz_fdiv_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzFdivUi"
+	}, {
+		"mangle":	"__gmpz_fits_slong_p",
+		"c++":	"__gmpz_fits_slong_p(mpz_srcptr)",
+		"go":	"X__GmpzFitsSlongP"
+	}, {
+		"mangle":	"__gmpz_get_si",
+		"c++":	"__gmpz_get_si(mpz_srcptr)",
+		"go":	"X__GmpzGetSi"
+	}, {
+		"mangle":	"__gmpz_init",
+		"c++":	"__gmpz_init(mpz_ptr)",
+		"go":	"X__GmpzInit"
+	}, {
+		"mangle":	"__gmpz_init2",
+		"c++":	"__gmpz_init2(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzInit2"
+	}, {
+		"mangle":	"__gmpz_mod",
+		"c++":	"__gmpz_mod(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzMod"
+	}, {
+		"mangle":	"__gmpz_mul",
+		"c++":	"__gmpz_mul(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzMul"
+	}, {
+		"mangle":	"__gmpz_mul_2exp",
+		"c++":	"__gmpz_mul_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzMul2exp"
+	}, {
+		"mangle":	"__gmpz_mul_si",
+		"c++":	"__gmpz_mul_si(mpz_ptr, mpz_srcptr, long)",
+		"go":	"X__GmpzMulSi"
+	}, {
+		"mangle":	"__gmpz_mul_ui",
+		"c++":	"__gmpz_mul_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzMulUi"
+	}, {
+		"mangle":	"__gmpz_pow_ui",
+		"c++":	"__gmpz_pow_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzPowUi"
+	}, {
+		"mangle":	"__gmpz_powm_ui",
+		"c++":	"__gmpz_powm_ui(mpz_ptr, mpz_srcptr, unsigned long, mpz_srcptr)",
+		"go":	"X__GmpzPowmUi"
+	}, {
+		"mangle":	"__gmpz_realloc2",
+		"c++":	"__gmpz_realloc2(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzRealloc2"
+	}, {
+		"mangle":	"__gmpz_root",
+		"c++":	"__gmpz_root(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzRoot"
+	}, {
+		"mangle":	"__gmpz_scan1",
+		"c++":	"__gmpz_scan1(mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzScan1"
+	}, {
+		"mangle":	"__gmpz_set",
+		"c++":	"__gmpz_set(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzSet"
+	}, {
+		"mangle":	"__gmpz_set_si",
+		"c++":	"__gmpz_set_si(mpz_ptr, long)",
+		"go":	"X__GmpzSetSi"
+	}, {
+		"mangle":	"__gmpz_set_ui",
+		"c++":	"__gmpz_set_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzSetUi"
+	}, {
+		"mangle":	"__gmpz_setbit",
+		"c++":	"__gmpz_setbit(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzSetbit"
+	}, {
+		"mangle":	"__gmpz_sizeinbase",
+		"c++":	"__gmpz_sizeinbase(mpz_srcptr, int)",
+		"go":	"X__GmpzSizeinbase"
+	}, {
+		"mangle":	"__gmpz_sqrt",
+		"c++":	"__gmpz_sqrt(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzSqrt"
+	}, {
+		"mangle":	"__gmpz_sub",
+		"c++":	"__gmpz_sub(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzSub"
+	}, {
+		"mangle":	"__gmpz_sub_ui",
+		"c++":	"__gmpz_sub_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzSubUi"
+	}, {
+		"mangle":	"__gmpz_submul",
+		"c++":	"__gmpz_submul(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzSubmul"
+	}, {
+		"mangle":	"__gmpz_swap",
+		"c++":	"__gmpz_swap(mpz_ptr, mpz_ptr)",
+		"go":	"X__GmpzSwap"
+	}, {
+		"mangle":	"__gmpz_tdiv_q",
+		"c++":	"__gmpz_tdiv_q(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzTdivQ"
+	}, {
+		"mangle":	"__gmpz_tdiv_q_2exp",
+		"c++":	"__gmpz_tdiv_q_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzTdivQ2exp"
+	}, {
+		"mangle":	"__gmpz_tdiv_q_ui",
+		"c++":	"__gmpz_tdiv_q_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzTdivQUi"
+	}, {
+		"mangle":	"__gmpz_tdiv_qr",
+		"c++":	"__gmpz_tdiv_qr(mpz_ptr, mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzTdivQr"
+	}, {
+		"mangle":	"__gmpz_tdiv_r_2exp",
+		"c++":	"__gmpz_tdiv_r_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzTdivR2exp"
+	}, {
+		"mangle":	"__gmpz_tstbit",
+		"c++":	"__gmpz_tstbit(mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzTstbit"
+	}, {
+		"mangle":	"__gmpz_ui_pow_ui",
+		"c++":	"__gmpz_ui_pow_ui(mpz_ptr, unsigned long, unsigned long)",
+		"go":	"X__GmpzUiPowUi"
+	}, {
+		"mangle":	"__gmpz_urandomb",
+		"c++":	"__gmpz_urandomb(mpz_ptr, gmp_randstate_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzUrandomb"
+	}, {
+		"mangle":	"mpfr_abs",
+		"c++":	"mpfr_abs(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAbs"
+	}, {
+		"mangle":	"mpfr_acos",
+		"c++":	"mpfr_acos(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAcos"
+	}, {
+		"mangle":	"mpfr_acosh",
+		"c++":	"mpfr_acosh(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAcosh"
+	}, {
+		"mangle":	"mpfr_acospi",
+		"c++":	"mpfr_acospi(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAcospi"
+	}, {
+		"mangle":	"mpfr_acosu",
+		"c++":	"mpfr_acosu(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrAcosu"
+	}, {
+		"mangle":	"mpfr_add",
+		"c++":	"mpfr_add(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAdd"
+	}, {
+		"mangle":	"mpfr_add_d",
+		"c++":	"mpfr_add_d(mpfr_ptr, mpfr_srcptr, double, mpfr_rnd_t)",
+		"go":	"MpfrAddD"
+	}, {
+		"mangle":	"mpfr_add_q",
+		"c++":	"mpfr_add_q(mpfr_ptr, mpfr_srcptr, mpq_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAddQ"
+	}, {
+		"mangle":	"mpfr_add_si",
+		"c++":	"mpfr_add_si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrAddSi"
+	}, {
+		"mangle":	"mpfr_add_ui",
+		"c++":	"mpfr_add_ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrAddUi"
+	}, {
+		"mangle":	"mpfr_add_z",
+		"c++":	"mpfr_add_z(mpfr_ptr, mpfr_srcptr, mpz_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAddZ"
+	}, {
+		"mangle":	"mpfr_agm",
+		"c++":	"mpfr_agm(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAgm"
+	}, {
+		"mangle":	"mpfr_ai",
+		"c++":	"mpfr_ai(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAi"
+	}, {
+		"mangle":	"mpfr_asin",
+		"c++":	"mpfr_asin(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAsin"
+	}, {
+		"mangle":	"mpfr_asinh",
+		"c++":	"mpfr_asinh(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAsinh"
+	}, {
+		"mangle":	"mpfr_asinpi",
+		"c++":	"mpfr_asinpi(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAsinpi"
+	}, {
+		"mangle":	"mpfr_asinu",
+		"c++":	"mpfr_asinu(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrAsinu"
+	}, {
+		"mangle":	"mpfr_asprintf",
+		"c++":	"mpfr_asprintf(char **, const char *, ...)",
+		"go":	"MpfrAsprintf"
+	}, {
+		"mangle":	"mpfr_atan",
+		"c++":	"mpfr_atan(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAtan"
+	}, {
+		"mangle":	"mpfr_atan2",
+		"c++":	"mpfr_atan2(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAtan2"
+	}, {
+		"mangle":	"mpfr_atan2pi",
+		"c++":	"mpfr_atan2pi(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAtan2pi"
+	}, {
+		"mangle":	"mpfr_atan2u",
+		"c++":	"mpfr_atan2u(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrAtan2u"
+	}, {
+		"mangle":	"mpfr_atanh",
+		"c++":	"mpfr_atanh(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAtanh"
+	}, {
+		"mangle":	"mpfr_atanpi",
+		"c++":	"mpfr_atanpi(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrAtanpi"
+	}, {
+		"mangle":	"mpfr_atanu",
+		"c++":	"mpfr_atanu(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrAtanu"
+	}, {
+		"mangle":	"mpfr_beta",
+		"c++":	"mpfr_beta(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrBeta"
+	}, {
+		"mangle":	"mpfr_buildopt_decimal_p",
+		"c++":	"mpfr_buildopt_decimal_p()",
+		"go":	"MpfrBuildoptDecimalP"
+	}, {
+		"mangle":	"mpfr_buildopt_float128_p",
+		"c++":	"mpfr_buildopt_float128_p()",
+		"go":	"MpfrBuildoptFloat128P"
+	}, {
+		"mangle":	"mpfr_buildopt_gmpinternals_p",
+		"c++":	"mpfr_buildopt_gmpinternals_p()",
+		"go":	"MpfrBuildoptGmpinternalsP"
+	}, {
+		"mangle":	"mpfr_buildopt_sharedcache_p",
+		"c++":	"mpfr_buildopt_sharedcache_p()",
+		"go":	"MpfrBuildoptSharedcacheP"
+	}, {
+		"mangle":	"mpfr_buildopt_tls_p",
+		"c++":	"mpfr_buildopt_tls_p()",
+		"go":	"MpfrBuildoptTlsP"
+	}, {
+		"mangle":	"mpfr_buildopt_tune_case",
+		"c++":	"mpfr_buildopt_tune_case()",
+		"go":	"MpfrBuildoptTuneCase"
+	}, {
+		"mangle":	"mpfr_can_round",
+		"c++":	"mpfr_can_round(mpfr_srcptr, mpfr_exp_t, mpfr_rnd_t, mpfr_rnd_t, mpfr_prec_t)",
+		"go":	"MpfrCanRound"
+	}, {
+		"mangle":	"mpfr_cbrt",
+		"c++":	"mpfr_cbrt(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCbrt"
+	}, {
+		"mangle":	"mpfr_ceil",
+		"c++":	"mpfr_ceil(mpfr_ptr, mpfr_srcptr)",
+		"go":	"MpfrCeil"
+	}, {
+		"mangle":	"mpfr_check_range",
+		"c++":	"mpfr_check_range(mpfr_ptr, int, mpfr_rnd_t)",
+		"go":	"MpfrCheckRange"
+	}, {
+		"mangle":	"mpfr_clear",
+		"c++":	"mpfr_clear(mpfr_ptr)",
+		"go":	"MpfrClear"
+	}, {
+		"mangle":	"mpfr_clear_divby0",
+		"c++":	"mpfr_clear_divby0()",
+		"go":	"MpfrClearDivby0"
+	}, {
+		"mangle":	"mpfr_clear_erangeflag",
+		"c++":	"mpfr_clear_erangeflag()",
+		"go":	"MpfrClearErangeflag"
+	}, {
+		"mangle":	"mpfr_clear_flags",
+		"c++":	"mpfr_clear_flags()",
+		"go":	"MpfrClearFlags"
+	}, {
+		"mangle":	"mpfr_clear_inexflag",
+		"c++":	"mpfr_clear_inexflag()",
+		"go":	"MpfrClearInexflag"
+	}, {
+		"mangle":	"mpfr_clear_nanflag",
+		"c++":	"mpfr_clear_nanflag()",
+		"go":	"MpfrClearNanflag"
+	}, {
+		"mangle":	"mpfr_clear_overflow",
+		"c++":	"mpfr_clear_overflow()",
+		"go":	"MpfrClearOverflow"
+	}, {
+		"mangle":	"mpfr_clear_underflow",
+		"c++":	"mpfr_clear_underflow()",
+		"go":	"MpfrClearUnderflow"
+	}, {
+		"mangle":	"mpfr_clears",
+		"c++":	"mpfr_clears(mpfr_ptr, ...)",
+		"go":	"MpfrClears"
+	}, {
+		"mangle":	"mpfr_cmp",
+		"c++":	"mpfr_cmp(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrCmp"
+	}, {
+		"mangle":	"mpfr_cmp3",
+		"c++":	"mpfr_cmp3(mpfr_srcptr, mpfr_srcptr, int)",
+		"go":	"MpfrCmp3"
+	}, {
+		"mangle":	"mpfr_cmp_d",
+		"c++":	"mpfr_cmp_d(mpfr_srcptr, double)",
+		"go":	"MpfrCmpD"
+	}, {
+		"mangle":	"mpfr_cmp_f",
+		"c++":	"mpfr_cmp_f(mpfr_srcptr, mpf_srcptr)",
+		"go":	"MpfrCmpF"
+	}, {
+		"mangle":	"mpfr_cmp_ld",
+		"c++":	"mpfr_cmp_ld(mpfr_srcptr, long double)",
+		"go":	"MpfrCmpLd"
+	}, {
+		"mangle":	"mpfr_cmp_q",
+		"c++":	"mpfr_cmp_q(mpfr_srcptr, mpq_srcptr)",
+		"go":	"MpfrCmpQ"
+	}, {
+		"mangle":	"mpfr_cmp_si",
+		"c++":	"mpfr_cmp_si(mpfr_srcptr, long)",
+		"go":	"MpfrCmpSi"
+	}, {
+		"mangle":	"mpfr_cmp_si_2exp",
+		"c++":	"mpfr_cmp_si_2exp(mpfr_srcptr, long, mpfr_exp_t)",
+		"go":	"MpfrCmpSi2exp"
+	}, {
+		"mangle":	"mpfr_cmp_ui",
+		"c++":	"mpfr_cmp_ui(mpfr_srcptr, unsigned long)",
+		"go":	"MpfrCmpUi"
+	}, {
+		"mangle":	"mpfr_cmp_ui_2exp",
+		"c++":	"mpfr_cmp_ui_2exp(mpfr_srcptr, unsigned long, mpfr_exp_t)",
+		"go":	"MpfrCmpUi2exp"
+	}, {
+		"mangle":	"mpfr_cmp_z",
+		"c++":	"mpfr_cmp_z(mpfr_srcptr, mpz_srcptr)",
+		"go":	"MpfrCmpZ"
+	}, {
+		"mangle":	"mpfr_cmpabs",
+		"c++":	"mpfr_cmpabs(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrCmpabs"
+	}, {
+		"mangle":	"mpfr_cmpabs_ui",
+		"c++":	"mpfr_cmpabs_ui(mpfr_srcptr, unsigned long)",
+		"go":	"MpfrCmpabsUi"
+	}, {
+		"mangle":	"mpfr_compound_si",
+		"c++":	"mpfr_compound_si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrCompoundSi"
+	}, {
+		"mangle":	"mpfr_const_catalan",
+		"c++":	"mpfr_const_catalan(mpfr_ptr, mpfr_rnd_t)",
+		"go":	"MpfrConstCatalan"
+	}, {
+		"mangle":	"mpfr_const_euler",
+		"c++":	"mpfr_const_euler(mpfr_ptr, mpfr_rnd_t)",
+		"go":	"MpfrConstEuler"
+	}, {
+		"mangle":	"mpfr_const_log2",
+		"c++":	"mpfr_const_log2(mpfr_ptr, mpfr_rnd_t)",
+		"go":	"MpfrConstLog2"
+	}, {
+		"mangle":	"mpfr_const_pi",
+		"c++":	"mpfr_const_pi(mpfr_ptr, mpfr_rnd_t)",
+		"go":	"MpfrConstPi"
+	}, {
+		"mangle":	"mpfr_copysign",
+		"c++":	"mpfr_copysign(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCopysign"
+	}, {
+		"mangle":	"mpfr_cos",
+		"c++":	"mpfr_cos(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCos"
+	}, {
+		"mangle":	"mpfr_cosh",
+		"c++":	"mpfr_cosh(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCosh"
+	}, {
+		"mangle":	"mpfr_cospi",
+		"c++":	"mpfr_cospi(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCospi"
+	}, {
+		"mangle":	"mpfr_cosu",
+		"c++":	"mpfr_cosu(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrCosu"
+	}, {
+		"mangle":	"mpfr_cot",
+		"c++":	"mpfr_cot(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCot"
+	}, {
+		"mangle":	"mpfr_coth",
+		"c++":	"mpfr_coth(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCoth"
+	}, {
+		"mangle":	"mpfr_csc",
+		"c++":	"mpfr_csc(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCsc"
+	}, {
+		"mangle":	"mpfr_csch",
+		"c++":	"mpfr_csch(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrCsch"
+	}, {
+		"mangle":	"mpfr_custom_get_exp",
+		"c++":	"mpfr_custom_get_exp(mpfr_srcptr)",
+		"go":	"MpfrCustomGetExp"
+	}, {
+		"mangle":	"mpfr_custom_get_kind",
+		"c++":	"mpfr_custom_get_kind(mpfr_srcptr)",
+		"go":	"MpfrCustomGetKind"
+	}, {
+		"mangle":	"mpfr_custom_get_significand",
+		"c++":	"mpfr_custom_get_significand(mpfr_srcptr)",
+		"go":	"MpfrCustomGetSignificand"
+	}, {
+		"mangle":	"mpfr_custom_get_size",
+		"c++":	"mpfr_custom_get_size(mpfr_prec_t)",
+		"go":	"MpfrPrecT.MpfrCustomGetSize"
+	}, {
+		"mangle":	"mpfr_custom_init",
+		"c++":	"mpfr_custom_init(void *, mpfr_prec_t)",
+		"go":	"MpfrCustomInit"
+	}, {
+		"mangle":	"mpfr_custom_init_set",
+		"c++":	"mpfr_custom_init_set(mpfr_ptr, int, mpfr_exp_t, mpfr_prec_t, void *)",
+		"go":	"MpfrCustomInitSet"
+	}, {
+		"mangle":	"mpfr_custom_move",
+		"c++":	"mpfr_custom_move(mpfr_ptr, void *)",
+		"go":	"MpfrCustomMove"
+	}, {
+		"mangle":	"mpfr_d_div",
+		"c++":	"mpfr_d_div(mpfr_ptr, double, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrDDiv"
+	}, {
+		"mangle":	"mpfr_d_sub",
+		"c++":	"mpfr_d_sub(mpfr_ptr, double, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrDSub"
+	}, {
+		"mangle":	"mpfr_digamma",
+		"c++":	"mpfr_digamma(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrDigamma"
+	}, {
+		"mangle":	"mpfr_dim",
+		"c++":	"mpfr_dim(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrDim"
+	}, {
+		"mangle":	"mpfr_div",
+		"c++":	"mpfr_div(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrDiv"
+	}, {
+		"mangle":	"mpfr_div_2exp",
+		"c++":	"mpfr_div_2exp(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrDiv2exp"
+	}, {
+		"mangle":	"mpfr_div_2si",
+		"c++":	"mpfr_div_2si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrDiv2si"
+	}, {
+		"mangle":	"mpfr_div_2ui",
+		"c++":	"mpfr_div_2ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrDiv2ui"
+	}, {
+		"mangle":	"mpfr_div_d",
+		"c++":	"mpfr_div_d(mpfr_ptr, mpfr_srcptr, double, mpfr_rnd_t)",
+		"go":	"MpfrDivD"
+	}, {
+		"mangle":	"mpfr_div_q",
+		"c++":	"mpfr_div_q(mpfr_ptr, mpfr_srcptr, mpq_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrDivQ"
+	}, {
+		"mangle":	"mpfr_div_si",
+		"c++":	"mpfr_div_si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrDivSi"
+	}, {
+		"mangle":	"mpfr_div_ui",
+		"c++":	"mpfr_div_ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrDivUi"
+	}, {
+		"mangle":	"mpfr_div_z",
+		"c++":	"mpfr_div_z(mpfr_ptr, mpfr_srcptr, mpz_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrDivZ"
+	}, {
+		"mangle":	"mpfr_divby0_p",
+		"c++":	"mpfr_divby0_p()",
+		"go":	"MpfrDivby0P"
+	}, {
+		"mangle":	"mpfr_dot",
+		"c++":	"mpfr_dot(mpfr_ptr, const mpfr_ptr *, const mpfr_ptr *, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrDot"
+	}, {
+		"mangle":	"mpfr_dump",
+		"c++":	"mpfr_dump(mpfr_srcptr)",
+		"go":	"MpfrDump"
+	}, {
+		"mangle":	"mpfr_eint",
+		"c++":	"mpfr_eint(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrEint"
+	}, {
+		"mangle":	"mpfr_eq",
+		"c++":	"mpfr_eq(mpfr_srcptr, mpfr_srcptr, unsigned long)",
+		"go":	"MpfrEq"
+	}, {
+		"mangle":	"mpfr_equal_p",
+		"c++":	"mpfr_equal_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrEqualP"
+	}, {
+		"mangle":	"mpfr_erandom",
+		"c++":	"mpfr_erandom(mpfr_ptr, __gmp_randstate_struct *, mpfr_rnd_t)",
+		"go":	"MpfrErandom"
+	}, {
+		"mangle":	"mpfr_erangeflag_p",
+		"c++":	"mpfr_erangeflag_p()",
+		"go":	"MpfrErangeflagP"
+	}, {
+		"mangle":	"mpfr_erf",
+		"c++":	"mpfr_erf(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrErf"
+	}, {
+		"mangle":	"mpfr_erfc",
+		"c++":	"mpfr_erfc(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrErfc"
+	}, {
+		"mangle":	"mpfr_exp",
+		"c++":	"mpfr_exp(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrExp"
+	}, {
+		"mangle":	"mpfr_exp10",
+		"c++":	"mpfr_exp10(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrExp10"
+	}, {
+		"mangle":	"mpfr_exp10m1",
+		"c++":	"mpfr_exp10m1(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrExp10m1"
+	}, {
+		"mangle":	"mpfr_exp2",
+		"c++":	"mpfr_exp2(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrExp2"
+	}, {
+		"mangle":	"mpfr_exp2m1",
+		"c++":	"mpfr_exp2m1(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrExp2m1"
+	}, {
+		"mangle":	"mpfr_expm1",
+		"c++":	"mpfr_expm1(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrExpm1"
+	}, {
+		"mangle":	"mpfr_extract",
+		"c++":	"mpfr_extract(mpz_ptr, mpfr_srcptr, unsigned int)",
+		"go":	"MpfrExtract"
+	}, {
+		"mangle":	"mpfr_fac_ui",
+		"c++":	"mpfr_fac_ui(mpfr_ptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrFacUi"
+	}, {
+		"mangle":	"mpfr_fits_intmax_p",
+		"c++":	"mpfr_fits_intmax_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsIntmaxP"
+	}, {
+		"mangle":	"mpfr_fits_sint_p",
+		"c++":	"mpfr_fits_sint_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsSintP"
+	}, {
+		"mangle":	"mpfr_fits_slong_p",
+		"c++":	"mpfr_fits_slong_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsSlongP"
+	}, {
+		"mangle":	"mpfr_fits_sshort_p",
+		"c++":	"mpfr_fits_sshort_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsSshortP"
+	}, {
+		"mangle":	"mpfr_fits_uint_p",
+		"c++":	"mpfr_fits_uint_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsUintP"
+	}, {
+		"mangle":	"mpfr_fits_uintmax_p",
+		"c++":	"mpfr_fits_uintmax_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsUintmaxP"
+	}, {
+		"mangle":	"mpfr_fits_ulong_p",
+		"c++":	"mpfr_fits_ulong_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsUlongP"
+	}, {
+		"mangle":	"mpfr_fits_ushort_p",
+		"c++":	"mpfr_fits_ushort_p(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFitsUshortP"
+	}, {
+		"mangle":	"mpfr_flags_clear",
+		"c++":	"mpfr_flags_clear(mpfr_flags_t)",
+		"go":	"MpfrFlagsT.MpfrFlagsClear"
+	}, {
+		"mangle":	"mpfr_flags_restore",
+		"c++":	"mpfr_flags_restore(mpfr_flags_t, mpfr_flags_t)",
+		"go":	"MpfrFlagsT.MpfrFlagsRestore"
+	}, {
+		"mangle":	"mpfr_flags_save",
+		"c++":	"mpfr_flags_save()",
+		"go":	"MpfrFlagsSave"
+	}, {
+		"mangle":	"mpfr_flags_set",
+		"c++":	"mpfr_flags_set(mpfr_flags_t)",
+		"go":	"MpfrFlagsT.MpfrFlagsSet"
+	}, {
+		"mangle":	"mpfr_flags_test",
+		"c++":	"mpfr_flags_test(mpfr_flags_t)",
+		"go":	"MpfrFlagsT.MpfrFlagsTest"
+	}, {
+		"mangle":	"mpfr_floor",
+		"c++":	"mpfr_floor(mpfr_ptr, mpfr_srcptr)",
+		"go":	"MpfrFloor"
+	}, {
+		"mangle":	"mpfr_fma",
+		"c++":	"mpfr_fma(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFma"
+	}, {
+		"mangle":	"mpfr_fmma",
+		"c++":	"mpfr_fmma(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFmma"
+	}, {
+		"mangle":	"mpfr_fmms",
+		"c++":	"mpfr_fmms(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFmms"
+	}, {
+		"mangle":	"mpfr_fmod",
+		"c++":	"mpfr_fmod(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFmod"
+	}, {
+		"mangle":	"mpfr_fmod_ui",
+		"c++":	"mpfr_fmod_ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrFmodUi"
+	}, {
+		"mangle":	"mpfr_fmodquo",
+		"c++":	"mpfr_fmodquo(mpfr_ptr, long *, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFmodquo"
+	}, {
+		"mangle":	"mpfr_fms",
+		"c++":	"mpfr_fms(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFms"
+	}, {
+		"mangle":	"mpfr_frac",
+		"c++":	"mpfr_frac(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrFrac"
+	}, {
+		"mangle":	"mpfr_free_cache",
+		"c++":	"mpfr_free_cache()",
+		"go":	"MpfrFreeCache"
+	}, {
+		"mangle":	"mpfr_free_cache2",
+		"c++":	"mpfr_free_cache2(mpfr_free_cache_t)",
+		"go":	"MpfrFreeCacheT.MpfrFreeCache2"
+	}, {
+		"mangle":	"mpfr_free_pool",
+		"c++":	"mpfr_free_pool()",
+		"go":	"MpfrFreePool"
+	}, {
+		"mangle":	"mpfr_free_str",
+		"c++":	"mpfr_free_str(char *)",
+		"go":	"MpfrFreeStr"
+	}, {
+		"mangle":	"mpfr_frexp",
+		"c++":	"mpfr_frexp(mpfr_exp_t *, mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"(*MpfrExpT).MpfrFrexp"
+	}, {
+		"mangle":	"mpfr_gamma",
+		"c++":	"mpfr_gamma(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGamma"
+	}, {
+		"mangle":	"mpfr_gamma_inc",
+		"c++":	"mpfr_gamma_inc(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGammaInc"
+	}, {
+		"mangle":	"mpfr_get_d",
+		"c++":	"mpfr_get_d(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetD"
+	}, {
+		"mangle":	"mpfr_get_d1",
+		"c++":	"mpfr_get_d1(mpfr_srcptr)",
+		"go":	"MpfrGetD1"
+	}, {
+		"mangle":	"mpfr_get_d_2exp",
+		"c++":	"mpfr_get_d_2exp(long *, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetD2exp"
+	}, {
+		"mangle":	"mpfr_get_default_prec",
+		"c++":	"mpfr_get_default_prec()",
+		"go":	"MpfrGetDefaultPrec"
+	}, {
+		"mangle":	"mpfr_get_default_rounding_mode",
+		"c++":	"mpfr_get_default_rounding_mode()",
+		"go":	"MpfrGetDefaultRoundingMode"
+	}, {
+		"mangle":	"mpfr_get_emax",
+		"c++":	"mpfr_get_emax()",
+		"go":	"MpfrGetEmax"
+	}, {
+		"mangle":	"mpfr_get_emax_max",
+		"c++":	"mpfr_get_emax_max()",
+		"go":	"MpfrGetEmaxMax"
+	}, {
+		"mangle":	"mpfr_get_emax_min",
+		"c++":	"mpfr_get_emax_min()",
+		"go":	"MpfrGetEmaxMin"
+	}, {
+		"mangle":	"mpfr_get_emin",
+		"c++":	"mpfr_get_emin()",
+		"go":	"MpfrGetEmin"
+	}, {
+		"mangle":	"mpfr_get_emin_max",
+		"c++":	"mpfr_get_emin_max()",
+		"go":	"MpfrGetEminMax"
+	}, {
+		"mangle":	"mpfr_get_emin_min",
+		"c++":	"mpfr_get_emin_min()",
+		"go":	"MpfrGetEminMin"
+	}, {
+		"mangle":	"mpfr_get_exp",
+		"c++":	"mpfr_get_exp(mpfr_srcptr)",
+		"go":	"MpfrGetExp"
+	}, {
+		"mangle":	"mpfr_get_f",
+		"c++":	"mpfr_get_f(mpf_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetF"
+	}, {
+		"mangle":	"mpfr_get_flt",
+		"c++":	"mpfr_get_flt(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetFlt"
+	}, {
+		"mangle":	"mpfr_get_ld",
+		"c++":	"mpfr_get_ld(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetLd"
+	}, {
+		"mangle":	"mpfr_get_ld_2exp",
+		"c++":	"mpfr_get_ld_2exp(long *, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetLd2exp"
+	}, {
+		"mangle":	"mpfr_get_patches",
+		"c++":	"mpfr_get_patches()",
+		"go":	"MpfrGetPatches"
+	}, {
+		"mangle":	"mpfr_get_prec",
+		"c++":	"mpfr_get_prec(mpfr_srcptr)",
+		"go":	"MpfrGetPrec"
+	}, {
+		"mangle":	"mpfr_get_q",
+		"c++":	"mpfr_get_q(mpq_ptr, mpfr_srcptr)",
+		"go":	"MpfrGetQ"
+	}, {
+		"mangle":	"mpfr_get_si",
+		"c++":	"mpfr_get_si(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetSi"
+	}, {
+		"mangle":	"mpfr_get_str",
+		"c++":	"mpfr_get_str(char *, mpfr_exp_t *, int, size_t, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetStr"
+	}, {
+		"mangle":	"mpfr_get_str_ndigits",
+		"c++":	"mpfr_get_str_ndigits(int, mpfr_prec_t)",
+		"go":	"MpfrGetStrNdigits"
+	}, {
+		"mangle":	"mpfr_get_ui",
+		"c++":	"mpfr_get_ui(mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetUi"
+	}, {
+		"mangle":	"mpfr_get_version",
+		"c++":	"mpfr_get_version()",
+		"go":	"MpfrGetVersion"
+	}, {
+		"mangle":	"mpfr_get_z",
+		"c++":	"mpfr_get_z(mpz_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrGetZ"
+	}, {
+		"mangle":	"mpfr_get_z_2exp",
+		"c++":	"mpfr_get_z_2exp(mpz_ptr, mpfr_srcptr)",
+		"go":	"MpfrGetZ2exp"
+	}, {
+		"mangle":	"mpfr_grandom",
+		"c++":	"mpfr_grandom(mpfr_ptr, mpfr_ptr, __gmp_randstate_struct *, mpfr_rnd_t)",
+		"go":	"MpfrGrandom"
+	}, {
+		"mangle":	"mpfr_greater_p",
+		"c++":	"mpfr_greater_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrGreaterP"
+	}, {
+		"mangle":	"mpfr_greaterequal_p",
+		"c++":	"mpfr_greaterequal_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrGreaterequalP"
+	}, {
+		"mangle":	"mpfr_hypot",
+		"c++":	"mpfr_hypot(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrHypot"
+	}, {
+		"mangle":	"mpfr_inexflag_p",
+		"c++":	"mpfr_inexflag_p()",
+		"go":	"MpfrInexflagP"
+	}, {
+		"mangle":	"mpfr_inf_p",
+		"c++":	"mpfr_inf_p(mpfr_srcptr)",
+		"go":	"MpfrInfP"
+	}, {
+		"mangle":	"mpfr_init",
+		"c++":	"mpfr_init(mpfr_ptr)",
+		"go":	"MpfrInit"
+	}, {
+		"mangle":	"mpfr_init2",
+		"c++":	"mpfr_init2(mpfr_ptr, mpfr_prec_t)",
+		"go":	"MpfrInit2"
+	}, {
+		"mangle":	"mpfr_init_set_str",
+		"c++":	"mpfr_init_set_str(mpfr_ptr, const char *, int, mpfr_rnd_t)",
+		"go":	"MpfrInitSetStr"
+	}, {
+		"mangle":	"mpfr_inits",
+		"c++":	"mpfr_inits(mpfr_ptr, ...)",
+		"go":	"MpfrInits"
+	}, {
+		"mangle":	"mpfr_inits2",
+		"c++":	"mpfr_inits2(mpfr_prec_t, mpfr_ptr, ...)",
+		"go":	"MpfrPrecT.MpfrInits2"
+	}, {
+		"mangle":	"mpfr_integer_p",
+		"c++":	"mpfr_integer_p(mpfr_srcptr)",
+		"go":	"MpfrIntegerP"
+	}, {
+		"mangle":	"mpfr_j0",
+		"c++":	"mpfr_j0(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrJ0"
+	}, {
+		"mangle":	"mpfr_j1",
+		"c++":	"mpfr_j1(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrJ1"
+	}, {
+		"mangle":	"mpfr_jn",
+		"c++":	"mpfr_jn(mpfr_ptr, long, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrJn"
+	}, {
+		"mangle":	"mpfr_less_p",
+		"c++":	"mpfr_less_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrLessP"
+	}, {
+		"mangle":	"mpfr_lessequal_p",
+		"c++":	"mpfr_lessequal_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrLessequalP"
+	}, {
+		"mangle":	"mpfr_lessgreater_p",
+		"c++":	"mpfr_lessgreater_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrLessgreaterP"
+	}, {
+		"mangle":	"mpfr_lgamma",
+		"c++":	"mpfr_lgamma(mpfr_ptr, int *, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLgamma"
+	}, {
+		"mangle":	"mpfr_li2",
+		"c++":	"mpfr_li2(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLi2"
+	}, {
+		"mangle":	"mpfr_lngamma",
+		"c++":	"mpfr_lngamma(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLngamma"
+	}, {
+		"mangle":	"mpfr_log",
+		"c++":	"mpfr_log(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLog"
+	}, {
+		"mangle":	"mpfr_log10",
+		"c++":	"mpfr_log10(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLog10"
+	}, {
+		"mangle":	"mpfr_log10p1",
+		"c++":	"mpfr_log10p1(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLog10p1"
+	}, {
+		"mangle":	"mpfr_log1p",
+		"c++":	"mpfr_log1p(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLog1p"
+	}, {
+		"mangle":	"mpfr_log2",
+		"c++":	"mpfr_log2(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLog2"
+	}, {
+		"mangle":	"mpfr_log2p1",
+		"c++":	"mpfr_log2p1(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrLog2p1"
+	}, {
+		"mangle":	"mpfr_log_ui",
+		"c++":	"mpfr_log_ui(mpfr_ptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrLogUi"
+	}, {
+		"mangle":	"mpfr_max",
+		"c++":	"mpfr_max(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrMax"
+	}, {
+		"mangle":	"mpfr_min",
+		"c++":	"mpfr_min(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrMin"
+	}, {
+		"mangle":	"mpfr_min_prec",
+		"c++":	"mpfr_min_prec(mpfr_srcptr)",
+		"go":	"MpfrMinPrec"
+	}, {
+		"mangle":	"mpfr_modf",
+		"c++":	"mpfr_modf(mpfr_ptr, mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrModf"
+	}, {
+		"mangle":	"mpfr_mp_memory_cleanup",
+		"c++":	"mpfr_mp_memory_cleanup()",
+		"go":	"MpfrMpMemoryCleanup"
+	}, {
+		"mangle":	"mpfr_mul",
+		"c++":	"mpfr_mul(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrMul"
+	}, {
+		"mangle":	"mpfr_mul_2exp",
+		"c++":	"mpfr_mul_2exp(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrMul2exp"
+	}, {
+		"mangle":	"mpfr_mul_2si",
+		"c++":	"mpfr_mul_2si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrMul2si"
+	}, {
+		"mangle":	"mpfr_mul_2ui",
+		"c++":	"mpfr_mul_2ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrMul2ui"
+	}, {
+		"mangle":	"mpfr_mul_d",
+		"c++":	"mpfr_mul_d(mpfr_ptr, mpfr_srcptr, double, mpfr_rnd_t)",
+		"go":	"MpfrMulD"
+	}, {
+		"mangle":	"mpfr_mul_q",
+		"c++":	"mpfr_mul_q(mpfr_ptr, mpfr_srcptr, mpq_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrMulQ"
+	}, {
+		"mangle":	"mpfr_mul_si",
+		"c++":	"mpfr_mul_si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrMulSi"
+	}, {
+		"mangle":	"mpfr_mul_ui",
+		"c++":	"mpfr_mul_ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrMulUi"
+	}, {
+		"mangle":	"mpfr_mul_z",
+		"c++":	"mpfr_mul_z(mpfr_ptr, mpfr_srcptr, mpz_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrMulZ"
+	}, {
+		"mangle":	"mpfr_nan_p",
+		"c++":	"mpfr_nan_p(mpfr_srcptr)",
+		"go":	"MpfrNanP"
+	}, {
+		"mangle":	"mpfr_nanflag_p",
+		"c++":	"mpfr_nanflag_p()",
+		"go":	"MpfrNanflagP"
+	}, {
+		"mangle":	"mpfr_neg",
+		"c++":	"mpfr_neg(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrNeg"
+	}, {
+		"mangle":	"mpfr_nextabove",
+		"c++":	"mpfr_nextabove(mpfr_ptr)",
+		"go":	"MpfrNextabove"
+	}, {
+		"mangle":	"mpfr_nextbelow",
+		"c++":	"mpfr_nextbelow(mpfr_ptr)",
+		"go":	"MpfrNextbelow"
+	}, {
+		"mangle":	"mpfr_nexttoward",
+		"c++":	"mpfr_nexttoward(mpfr_ptr, mpfr_srcptr)",
+		"go":	"MpfrNexttoward"
+	}, {
+		"mangle":	"mpfr_nrandom",
+		"c++":	"mpfr_nrandom(mpfr_ptr, __gmp_randstate_struct *, mpfr_rnd_t)",
+		"go":	"MpfrNrandom"
+	}, {
+		"mangle":	"mpfr_number_p",
+		"c++":	"mpfr_number_p(mpfr_srcptr)",
+		"go":	"MpfrNumberP"
+	}, {
+		"mangle":	"mpfr_overflow_p",
+		"c++":	"mpfr_overflow_p()",
+		"go":	"MpfrOverflowP"
+	}, {
+		"mangle":	"mpfr_pow",
+		"c++":	"mpfr_pow(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrPow"
+	}, {
+		"mangle":	"mpfr_pow_si",
+		"c++":	"mpfr_pow_si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrPowSi"
+	}, {
+		"mangle":	"mpfr_pow_ui",
+		"c++":	"mpfr_pow_ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrPowUi"
+	}, {
+		"mangle":	"mpfr_pow_z",
+		"c++":	"mpfr_pow_z(mpfr_ptr, mpfr_srcptr, mpz_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrPowZ"
+	}, {
+		"mangle":	"mpfr_powr",
+		"c++":	"mpfr_powr(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrPowr"
+	}, {
+		"mangle":	"mpfr_prec_round",
+		"c++":	"mpfr_prec_round(mpfr_ptr, mpfr_prec_t, mpfr_rnd_t)",
+		"go":	"MpfrPrecRound"
+	}, {
+		"mangle":	"mpfr_print_rnd_mode",
+		"c++":	"mpfr_print_rnd_mode(mpfr_rnd_t)",
+		"go":	"MpfrRndT.MpfrPrintRndMode"
+	}, {
+		"mangle":	"mpfr_printf",
+		"c++":	"mpfr_printf(const char *, ...)",
+		"go":	"MpfrPrintf"
+	}, {
+		"mangle":	"mpfr_rec_sqrt",
+		"c++":	"mpfr_rec_sqrt(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRecSqrt"
+	}, {
+		"mangle":	"mpfr_regular_p",
+		"c++":	"mpfr_regular_p(mpfr_srcptr)",
+		"go":	"MpfrRegularP"
+	}, {
+		"mangle":	"mpfr_reldiff",
+		"c++":	"mpfr_reldiff(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrReldiff"
+	}, {
+		"mangle":	"mpfr_remainder",
+		"c++":	"mpfr_remainder(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRemainder"
+	}, {
+		"mangle":	"mpfr_remquo",
+		"c++":	"mpfr_remquo(mpfr_ptr, long *, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRemquo"
+	}, {
+		"mangle":	"mpfr_rint",
+		"c++":	"mpfr_rint(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRint"
+	}, {
+		"mangle":	"mpfr_rint_ceil",
+		"c++":	"mpfr_rint_ceil(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRintCeil"
+	}, {
+		"mangle":	"mpfr_rint_floor",
+		"c++":	"mpfr_rint_floor(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRintFloor"
+	}, {
+		"mangle":	"mpfr_rint_round",
+		"c++":	"mpfr_rint_round(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRintRound"
+	}, {
+		"mangle":	"mpfr_rint_roundeven",
+		"c++":	"mpfr_rint_roundeven(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRintRoundeven"
+	}, {
+		"mangle":	"mpfr_rint_trunc",
+		"c++":	"mpfr_rint_trunc(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrRintTrunc"
+	}, {
+		"mangle":	"mpfr_root",
+		"c++":	"mpfr_root(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrRoot"
+	}, {
+		"mangle":	"mpfr_rootn_si",
+		"c++":	"mpfr_rootn_si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrRootnSi"
+	}, {
+		"mangle":	"mpfr_rootn_ui",
+		"c++":	"mpfr_rootn_ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrRootnUi"
+	}, {
+		"mangle":	"mpfr_round",
+		"c++":	"mpfr_round(mpfr_ptr, mpfr_srcptr)",
+		"go":	"MpfrRound"
+	}, {
+		"mangle":	"mpfr_round_nearest_away_begin",
+		"c++":	"mpfr_round_nearest_away_begin(mpfr_ptr)",
+		"go":	"MpfrRoundNearestAwayBegin"
+	}, {
+		"mangle":	"mpfr_round_nearest_away_end",
+		"c++":	"mpfr_round_nearest_away_end(mpfr_ptr, int)",
+		"go":	"MpfrRoundNearestAwayEnd"
+	}, {
+		"mangle":	"mpfr_roundeven",
+		"c++":	"mpfr_roundeven(mpfr_ptr, mpfr_srcptr)",
+		"go":	"MpfrRoundeven"
+	}, {
+		"mangle":	"mpfr_sec",
+		"c++":	"mpfr_sec(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSec"
+	}, {
+		"mangle":	"mpfr_sech",
+		"c++":	"mpfr_sech(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSech"
+	}, {
+		"mangle":	"mpfr_set",
+		"c++":	"mpfr_set(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSet"
+	}, {
+		"mangle":	"mpfr_set4",
+		"c++":	"mpfr_set4(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t, int)",
+		"go":	"MpfrSet4"
+	}, {
+		"mangle":	"mpfr_set_d",
+		"c++":	"mpfr_set_d(mpfr_ptr, double, mpfr_rnd_t)",
+		"go":	"MpfrSetD"
+	}, {
+		"mangle":	"mpfr_set_default_prec",
+		"c++":	"mpfr_set_default_prec(mpfr_prec_t)",
+		"go":	"MpfrPrecT.MpfrSetDefaultPrec"
+	}, {
+		"mangle":	"mpfr_set_default_rounding_mode",
+		"c++":	"mpfr_set_default_rounding_mode(mpfr_rnd_t)",
+		"go":	"MpfrRndT.MpfrSetDefaultRoundingMode"
+	}, {
+		"mangle":	"mpfr_set_divby0",
+		"c++":	"mpfr_set_divby0()",
+		"go":	"MpfrSetDivby0"
+	}, {
+		"mangle":	"mpfr_set_emax",
+		"c++":	"mpfr_set_emax(mpfr_exp_t)",
+		"go":	"MpfrExpT.MpfrSetEmax"
+	}, {
+		"mangle":	"mpfr_set_emin",
+		"c++":	"mpfr_set_emin(mpfr_exp_t)",
+		"go":	"MpfrExpT.MpfrSetEmin"
+	}, {
+		"mangle":	"mpfr_set_erangeflag",
+		"c++":	"mpfr_set_erangeflag()",
+		"go":	"MpfrSetErangeflag"
+	}, {
+		"mangle":	"mpfr_set_exp",
+		"c++":	"mpfr_set_exp(mpfr_ptr, mpfr_exp_t)",
+		"go":	"MpfrSetExp"
+	}, {
+		"mangle":	"mpfr_set_f",
+		"c++":	"mpfr_set_f(mpfr_ptr, mpf_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSetF"
+	}, {
+		"mangle":	"mpfr_set_flt",
+		"c++":	"mpfr_set_flt(mpfr_ptr, float, mpfr_rnd_t)",
+		"go":	"MpfrSetFlt"
+	}, {
+		"mangle":	"mpfr_set_inexflag",
+		"c++":	"mpfr_set_inexflag()",
+		"go":	"MpfrSetInexflag"
+	}, {
+		"mangle":	"mpfr_set_inf",
+		"c++":	"mpfr_set_inf(mpfr_ptr, int)",
+		"go":	"MpfrSetInf"
+	}, {
+		"mangle":	"mpfr_set_ld",
+		"c++":	"mpfr_set_ld(mpfr_ptr, long double, mpfr_rnd_t)",
+		"go":	"MpfrSetLd"
+	}, {
+		"mangle":	"mpfr_set_nan",
+		"c++":	"mpfr_set_nan(mpfr_ptr)",
+		"go":	"MpfrSetNan"
+	}, {
+		"mangle":	"mpfr_set_nanflag",
+		"c++":	"mpfr_set_nanflag()",
+		"go":	"MpfrSetNanflag"
+	}, {
+		"mangle":	"mpfr_set_overflow",
+		"c++":	"mpfr_set_overflow()",
+		"go":	"MpfrSetOverflow"
+	}, {
+		"mangle":	"mpfr_set_prec",
+		"c++":	"mpfr_set_prec(mpfr_ptr, mpfr_prec_t)",
+		"go":	"MpfrSetPrec"
+	}, {
+		"mangle":	"mpfr_set_prec_raw",
+		"c++":	"mpfr_set_prec_raw(mpfr_ptr, mpfr_prec_t)",
+		"go":	"MpfrSetPrecRaw"
+	}, {
+		"mangle":	"mpfr_set_q",
+		"c++":	"mpfr_set_q(mpfr_ptr, mpq_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSetQ"
+	}, {
+		"mangle":	"mpfr_set_si",
+		"c++":	"mpfr_set_si(mpfr_ptr, long, mpfr_rnd_t)",
+		"go":	"MpfrSetSi"
+	}, {
+		"mangle":	"mpfr_set_si_2exp",
+		"c++":	"mpfr_set_si_2exp(mpfr_ptr, long, mpfr_exp_t, mpfr_rnd_t)",
+		"go":	"MpfrSetSi2exp"
+	}, {
+		"mangle":	"mpfr_set_str",
+		"c++":	"mpfr_set_str(mpfr_ptr, const char *, int, mpfr_rnd_t)",
+		"go":	"MpfrSetStr"
+	}, {
+		"mangle":	"mpfr_set_ui",
+		"c++":	"mpfr_set_ui(mpfr_ptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrSetUi"
+	}, {
+		"mangle":	"mpfr_set_ui_2exp",
+		"c++":	"mpfr_set_ui_2exp(mpfr_ptr, unsigned long, mpfr_exp_t, mpfr_rnd_t)",
+		"go":	"MpfrSetUi2exp"
+	}, {
+		"mangle":	"mpfr_set_underflow",
+		"c++":	"mpfr_set_underflow()",
+		"go":	"MpfrSetUnderflow"
+	}, {
+		"mangle":	"mpfr_set_z",
+		"c++":	"mpfr_set_z(mpfr_ptr, mpz_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSetZ"
+	}, {
+		"mangle":	"mpfr_set_z_2exp",
+		"c++":	"mpfr_set_z_2exp(mpfr_ptr, mpz_srcptr, mpfr_exp_t, mpfr_rnd_t)",
+		"go":	"MpfrSetZ2exp"
+	}, {
+		"mangle":	"mpfr_set_zero",
+		"c++":	"mpfr_set_zero(mpfr_ptr, int)",
+		"go":	"MpfrSetZero"
+	}, {
+		"mangle":	"mpfr_setsign",
+		"c++":	"mpfr_setsign(mpfr_ptr, mpfr_srcptr, int, mpfr_rnd_t)",
+		"go":	"MpfrSetsign"
+	}, {
+		"mangle":	"mpfr_sgn",
+		"c++":	"mpfr_sgn(mpfr_srcptr)",
+		"go":	"MpfrSgn"
+	}, {
+		"mangle":	"mpfr_si_div",
+		"c++":	"mpfr_si_div(mpfr_ptr, long, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSiDiv"
+	}, {
+		"mangle":	"mpfr_si_sub",
+		"c++":	"mpfr_si_sub(mpfr_ptr, long, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSiSub"
+	}, {
+		"mangle":	"mpfr_signbit",
+		"c++":	"mpfr_signbit(mpfr_srcptr)",
+		"go":	"MpfrSignbit"
+	}, {
+		"mangle":	"mpfr_sin",
+		"c++":	"mpfr_sin(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSin"
+	}, {
+		"mangle":	"mpfr_sin_cos",
+		"c++":	"mpfr_sin_cos(mpfr_ptr, mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSinCos"
+	}, {
+		"mangle":	"mpfr_sinh",
+		"c++":	"mpfr_sinh(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSinh"
+	}, {
+		"mangle":	"mpfr_sinh_cosh",
+		"c++":	"mpfr_sinh_cosh(mpfr_ptr, mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSinhCosh"
+	}, {
+		"mangle":	"mpfr_sinpi",
+		"c++":	"mpfr_sinpi(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSinpi"
+	}, {
+		"mangle":	"mpfr_sinu",
+		"c++":	"mpfr_sinu(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrSinu"
+	}, {
+		"mangle":	"mpfr_snprintf",
+		"c++":	"mpfr_snprintf(char *, size_t, const char *, ...)",
+		"go":	"MpfrSnprintf"
+	}, {
+		"mangle":	"mpfr_sprintf",
+		"c++":	"mpfr_sprintf(char *, const char *, ...)",
+		"go":	"MpfrSprintf"
+	}, {
+		"mangle":	"mpfr_sqr",
+		"c++":	"mpfr_sqr(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSqr"
+	}, {
+		"mangle":	"mpfr_sqrt",
+		"c++":	"mpfr_sqrt(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSqrt"
+	}, {
+		"mangle":	"mpfr_sqrt_ui",
+		"c++":	"mpfr_sqrt_ui(mpfr_ptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrSqrtUi"
+	}, {
+		"mangle":	"mpfr_strtofr",
+		"c++":	"mpfr_strtofr(mpfr_ptr, const char *, char **, int, mpfr_rnd_t)",
+		"go":	"MpfrStrtofr"
+	}, {
+		"mangle":	"mpfr_sub",
+		"c++":	"mpfr_sub(mpfr_ptr, mpfr_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSub"
+	}, {
+		"mangle":	"mpfr_sub_d",
+		"c++":	"mpfr_sub_d(mpfr_ptr, mpfr_srcptr, double, mpfr_rnd_t)",
+		"go":	"MpfrSubD"
+	}, {
+		"mangle":	"mpfr_sub_q",
+		"c++":	"mpfr_sub_q(mpfr_ptr, mpfr_srcptr, mpq_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSubQ"
+	}, {
+		"mangle":	"mpfr_sub_si",
+		"c++":	"mpfr_sub_si(mpfr_ptr, mpfr_srcptr, long, mpfr_rnd_t)",
+		"go":	"MpfrSubSi"
+	}, {
+		"mangle":	"mpfr_sub_ui",
+		"c++":	"mpfr_sub_ui(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrSubUi"
+	}, {
+		"mangle":	"mpfr_sub_z",
+		"c++":	"mpfr_sub_z(mpfr_ptr, mpfr_srcptr, mpz_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrSubZ"
+	}, {
+		"mangle":	"mpfr_subnormalize",
+		"c++":	"mpfr_subnormalize(mpfr_ptr, int, mpfr_rnd_t)",
+		"go":	"MpfrSubnormalize"
+	}, {
+		"mangle":	"mpfr_sum",
+		"c++":	"mpfr_sum(mpfr_ptr, const mpfr_ptr *, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrSum"
+	}, {
+		"mangle":	"mpfr_swap",
+		"c++":	"mpfr_swap(mpfr_ptr, mpfr_ptr)",
+		"go":	"MpfrSwap"
+	}, {
+		"mangle":	"mpfr_tan",
+		"c++":	"mpfr_tan(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrTan"
+	}, {
+		"mangle":	"mpfr_tanh",
+		"c++":	"mpfr_tanh(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrTanh"
+	}, {
+		"mangle":	"mpfr_tanpi",
+		"c++":	"mpfr_tanpi(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrTanpi"
+	}, {
+		"mangle":	"mpfr_tanu",
+		"c++":	"mpfr_tanu(mpfr_ptr, mpfr_srcptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrTanu"
+	}, {
+		"mangle":	"mpfr_total_order_p",
+		"c++":	"mpfr_total_order_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrTotalOrderP"
+	}, {
+		"mangle":	"mpfr_trunc",
+		"c++":	"mpfr_trunc(mpfr_ptr, mpfr_srcptr)",
+		"go":	"MpfrTrunc"
+	}, {
+		"mangle":	"mpfr_ui_div",
+		"c++":	"mpfr_ui_div(mpfr_ptr, unsigned long, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrUiDiv"
+	}, {
+		"mangle":	"mpfr_ui_pow",
+		"c++":	"mpfr_ui_pow(mpfr_ptr, unsigned long, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrUiPow"
+	}, {
+		"mangle":	"mpfr_ui_pow_ui",
+		"c++":	"mpfr_ui_pow_ui(mpfr_ptr, unsigned long, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrUiPowUi"
+	}, {
+		"mangle":	"mpfr_ui_sub",
+		"c++":	"mpfr_ui_sub(mpfr_ptr, unsigned long, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrUiSub"
+	}, {
+		"mangle":	"mpfr_underflow_p",
+		"c++":	"mpfr_underflow_p()",
+		"go":	"MpfrUnderflowP"
+	}, {
+		"mangle":	"mpfr_unordered_p",
+		"c++":	"mpfr_unordered_p(mpfr_srcptr, mpfr_srcptr)",
+		"go":	"MpfrUnorderedP"
+	}, {
+		"mangle":	"mpfr_urandom",
+		"c++":	"mpfr_urandom(mpfr_ptr, __gmp_randstate_struct *, mpfr_rnd_t)",
+		"go":	"MpfrUrandom"
+	}, {
+		"mangle":	"mpfr_urandomb",
+		"c++":	"mpfr_urandomb(mpfr_ptr, __gmp_randstate_struct *)",
+		"go":	"MpfrUrandomb"
+	}, {
+		"mangle":	"mpfr_y0",
+		"c++":	"mpfr_y0(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrY0"
+	}, {
+		"mangle":	"mpfr_y1",
+		"c++":	"mpfr_y1(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrY1"
+	}, {
+		"mangle":	"mpfr_yn",
+		"c++":	"mpfr_yn(mpfr_ptr, long, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrYn"
+	}, {
+		"mangle":	"mpfr_z_sub",
+		"c++":	"mpfr_z_sub(mpfr_ptr, mpz_srcptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrZSub"
+	}, {
+		"mangle":	"mpfr_zero_p",
+		"c++":	"mpfr_zero_p(mpfr_srcptr)",
+		"go":	"MpfrZeroP"
+	}, {
+		"mangle":	"mpfr_zeta",
+		"c++":	"mpfr_zeta(mpfr_ptr, mpfr_srcptr, mpfr_rnd_t)",
+		"go":	"MpfrZeta"
+	}, {
+		"mangle":	"mpfr_zeta_ui",
+		"c++":	"mpfr_zeta_ui(mpfr_ptr, unsigned long, mpfr_rnd_t)",
+		"go":	"MpfrZetaUi"
+	}, {
+		"mangle":	"__gmpf_set_str",
+		"c++":	"__gmpf_set_str(mpf_ptr, const char *, int)",
+		"go":	"X__GmpfSetStr"
+	}, {
+		"mangle":	"__gmpq_get_str",
+		"c++":	"__gmpq_get_str(char *, int, mpq_srcptr)",
+		"go":	"X__GmpqGetStr"
+	}, {
+		"mangle":	"__gmpz_get_str",
+		"c++":	"__gmpz_get_str(char *, int, mpz_srcptr)",
+		"go":	"X__GmpzGetStr"
+	}, {
+		"mangle":	"__gmpz_set_str",
+		"c++":	"__gmpz_set_str(mpz_ptr, const char *, int)",
+		"go":	"X__GmpzSetStr"
+	}, {
+		"mangle":	"__gmpz_set_ui",
+		"c++":	"__gmpz_set_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzSetUi"
+	}, {
+		"mangle":	"__gmp_asprintf",
+		"c++":	"__gmp_asprintf(char **, const char *, ...)",
+		"go":	"X__GmpAsprintf"
+	}, {
+		"mangle":	"__gmp_get_memory_functions",
+		"c++":	"__gmp_get_memory_functions(void *(**)(size_t), void *(**)(void *, size_t, size_t), void (**)(void *, size_t))",
+		"go":	"X__GmpGetMemoryFunctions"
+	}, {
+		"mangle":	"__gmp_printf",
+		"c++":	"__gmp_printf(const char *, ...)",
+		"go":	"X__GmpPrintf"
+	}, {
+		"mangle":	"__gmp_randclear",
+		"c++":	"__gmp_randclear(gmp_randstate_ptr)",
+		"go":	"X__GmpRandclear"
+	}, {
+		"mangle":	"__gmp_randinit",
+		"c++":	"__gmp_randinit(gmp_randstate_ptr, gmp_randalg_t, ...)",
+		"go":	"X__GmpRandinit"
+	}, {
+		"mangle":	"__gmp_randinit_default",
+		"c++":	"__gmp_randinit_default(gmp_randstate_ptr)",
+		"go":	"X__GmpRandinitDefault"
+	}, {
+		"mangle":	"__gmp_randinit_lc_2exp",
+		"c++":	"__gmp_randinit_lc_2exp(gmp_randstate_ptr, mpz_srcptr, unsigned long, mp_bitcnt_t)",
+		"go":	"X__GmpRandinitLc2exp"
+	}, {
+		"mangle":	"__gmp_randinit_lc_2exp_size",
+		"c++":	"__gmp_randinit_lc_2exp_size(gmp_randstate_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpRandinitLc2expSize"
+	}, {
+		"mangle":	"__gmp_randinit_mt",
+		"c++":	"__gmp_randinit_mt(gmp_randstate_ptr)",
+		"go":	"X__GmpRandinitMt"
+	}, {
+		"mangle":	"__gmp_randinit_set",
+		"c++":	"__gmp_randinit_set(gmp_randstate_ptr, gmp_randstate_srcptr)",
+		"go":	"X__GmpRandinitSet"
+	}, {
+		"mangle":	"__gmp_randseed",
+		"c++":	"__gmp_randseed(gmp_randstate_ptr, mpz_srcptr)",
+		"go":	"X__GmpRandseed"
+	}, {
+		"mangle":	"__gmp_randseed_ui",
+		"c++":	"__gmp_randseed_ui(gmp_randstate_ptr, unsigned long)",
+		"go":	"X__GmpRandseedUi"
+	}, {
+		"mangle":	"__gmp_scanf",
+		"c++":	"__gmp_scanf(const char *, ...)",
+		"go":	"X__GmpScanf"
+	}, {
+		"mangle":	"__gmp_set_memory_functions",
+		"c++":	"__gmp_set_memory_functions(void *(*)(size_t), void *(*)(void *, size_t, size_t), void (*)(void *, size_t))",
+		"go":	"X__GmpSetMemoryFunctions"
+	}, {
+		"mangle":	"__gmp_snprintf",
+		"c++":	"__gmp_snprintf(char *, size_t, const char *, ...)",
+		"go":	"X__GmpSnprintf"
+	}, {
+		"mangle":	"__gmp_sprintf",
+		"c++":	"__gmp_sprintf(char *, const char *, ...)",
+		"go":	"X__GmpSprintf"
+	}, {
+		"mangle":	"__gmp_sscanf",
+		"c++":	"__gmp_sscanf(const char *, const char *, ...)",
+		"go":	"X__GmpSscanf"
+	}, {
+		"mangle":	"__gmp_urandomb_ui",
+		"c++":	"__gmp_urandomb_ui(gmp_randstate_ptr, unsigned long)",
+		"go":	"X__GmpUrandombUi"
+	}, {
+		"mangle":	"__gmp_urandomm_ui",
+		"c++":	"__gmp_urandomm_ui(gmp_randstate_ptr, unsigned long)",
+		"go":	"X__GmpUrandommUi"
+	}, {
+		"mangle":	"__gmpf_abs",
+		"c++":	"__gmpf_abs(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfAbs"
+	}, {
+		"mangle":	"__gmpf_add",
+		"c++":	"__gmpf_add(mpf_ptr, mpf_srcptr, mpf_srcptr)",
+		"go":	"X__GmpfAdd"
+	}, {
+		"mangle":	"__gmpf_add_ui",
+		"c++":	"__gmpf_add_ui(mpf_ptr, mpf_srcptr, unsigned long)",
+		"go":	"X__GmpfAddUi"
+	}, {
+		"mangle":	"__gmpf_ceil",
+		"c++":	"__gmpf_ceil(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfCeil"
+	}, {
+		"mangle":	"__gmpf_clear",
+		"c++":	"__gmpf_clear(mpf_ptr)",
+		"go":	"X__GmpfClear"
+	}, {
+		"mangle":	"__gmpf_clears",
+		"c++":	"__gmpf_clears(mpf_ptr, ...)",
+		"go":	"X__GmpfClears"
+	}, {
+		"mangle":	"__gmpf_cmp",
+		"c++":	"__gmpf_cmp(mpf_srcptr, mpf_srcptr)",
+		"go":	"X__GmpfCmp"
+	}, {
+		"mangle":	"__gmpf_cmp_d",
+		"c++":	"__gmpf_cmp_d(mpf_srcptr, double)",
+		"go":	"X__GmpfCmpD"
+	}, {
+		"mangle":	"__gmpf_cmp_si",
+		"c++":	"__gmpf_cmp_si(mpf_srcptr, long)",
+		"go":	"X__GmpfCmpSi"
+	}, {
+		"mangle":	"__gmpf_cmp_ui",
+		"c++":	"__gmpf_cmp_ui(mpf_srcptr, unsigned long)",
+		"go":	"X__GmpfCmpUi"
+	}, {
+		"mangle":	"__gmpf_cmp_z",
+		"c++":	"__gmpf_cmp_z(mpf_srcptr, mpz_srcptr)",
+		"go":	"X__GmpfCmpZ"
+	}, {
+		"mangle":	"__gmpf_div",
+		"c++":	"__gmpf_div(mpf_ptr, mpf_srcptr, mpf_srcptr)",
+		"go":	"X__GmpfDiv"
+	}, {
+		"mangle":	"__gmpf_div_2exp",
+		"c++":	"__gmpf_div_2exp(mpf_ptr, mpf_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpfDiv2exp"
+	}, {
+		"mangle":	"__gmpf_div_ui",
+		"c++":	"__gmpf_div_ui(mpf_ptr, mpf_srcptr, unsigned long)",
+		"go":	"X__GmpfDivUi"
+	}, {
+		"mangle":	"__gmpf_dump",
+		"c++":	"__gmpf_dump(mpf_srcptr)",
+		"go":	"X__GmpfDump"
+	}, {
+		"mangle":	"__gmpf_eq",
+		"c++":	"__gmpf_eq(mpf_srcptr, mpf_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpfEq"
+	}, {
+		"mangle":	"__gmpf_fits_sint_p",
+		"c++":	"__gmpf_fits_sint_p(mpf_srcptr)",
+		"go":	"X__GmpfFitsSintP"
+	}, {
+		"mangle":	"__gmpf_fits_slong_p",
+		"c++":	"__gmpf_fits_slong_p(mpf_srcptr)",
+		"go":	"X__GmpfFitsSlongP"
+	}, {
+		"mangle":	"__gmpf_fits_sshort_p",
+		"c++":	"__gmpf_fits_sshort_p(mpf_srcptr)",
+		"go":	"X__GmpfFitsSshortP"
+	}, {
+		"mangle":	"__gmpf_fits_uint_p",
+		"c++":	"__gmpf_fits_uint_p(mpf_srcptr)",
+		"go":	"X__GmpfFitsUintP"
+	}, {
+		"mangle":	"__gmpf_fits_ulong_p",
+		"c++":	"__gmpf_fits_ulong_p(mpf_srcptr)",
+		"go":	"X__GmpfFitsUlongP"
+	}, {
+		"mangle":	"__gmpf_fits_ushort_p",
+		"c++":	"__gmpf_fits_ushort_p(mpf_srcptr)",
+		"go":	"X__GmpfFitsUshortP"
+	}, {
+		"mangle":	"__gmpf_floor",
+		"c++":	"__gmpf_floor(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfFloor"
+	}, {
+		"mangle":	"__gmpf_get_d",
+		"c++":	"__gmpf_get_d(mpf_srcptr)",
+		"go":	"X__GmpfGetD"
+	}, {
+		"mangle":	"__gmpf_get_d_2exp",
+		"c++":	"__gmpf_get_d_2exp(long *, mpf_srcptr)",
+		"go":	"X__GmpfGetD2exp"
+	}, {
+		"mangle":	"__gmpf_get_default_prec",
+		"c++":	"__gmpf_get_default_prec()",
+		"go":	"X__GmpfGetDefaultPrec"
+	}, {
+		"mangle":	"__gmpf_get_prec",
+		"c++":	"__gmpf_get_prec(mpf_srcptr)",
+		"go":	"X__GmpfGetPrec"
+	}, {
+		"mangle":	"__gmpf_get_si",
+		"c++":	"__gmpf_get_si(mpf_srcptr)",
+		"go":	"X__GmpfGetSi"
+	}, {
+		"mangle":	"__gmpf_get_str",
+		"c++":	"__gmpf_get_str(char *, mp_exp_t *, int, size_t, mpf_srcptr)",
+		"go":	"X__GmpfGetStr"
+	}, {
+		"mangle":	"__gmpf_get_ui",
+		"c++":	"__gmpf_get_ui(mpf_srcptr)",
+		"go":	"X__GmpfGetUi"
+	}, {
+		"mangle":	"__gmpf_init",
+		"c++":	"__gmpf_init(mpf_ptr)",
+		"go":	"X__GmpfInit"
+	}, {
+		"mangle":	"__gmpf_init2",
+		"c++":	"__gmpf_init2(mpf_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpfInit2"
+	}, {
+		"mangle":	"__gmpf_init_set",
+		"c++":	"__gmpf_init_set(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfInitSet"
+	}, {
+		"mangle":	"__gmpf_init_set_d",
+		"c++":	"__gmpf_init_set_d(mpf_ptr, double)",
+		"go":	"X__GmpfInitSetD"
+	}, {
+		"mangle":	"__gmpf_init_set_si",
+		"c++":	"__gmpf_init_set_si(mpf_ptr, long)",
+		"go":	"X__GmpfInitSetSi"
+	}, {
+		"mangle":	"__gmpf_init_set_str",
+		"c++":	"__gmpf_init_set_str(mpf_ptr, const char *, int)",
+		"go":	"X__GmpfInitSetStr"
+	}, {
+		"mangle":	"__gmpf_init_set_ui",
+		"c++":	"__gmpf_init_set_ui(mpf_ptr, unsigned long)",
+		"go":	"X__GmpfInitSetUi"
+	}, {
+		"mangle":	"__gmpf_inits",
+		"c++":	"__gmpf_inits(mpf_ptr, ...)",
+		"go":	"X__GmpfInits"
+	}, {
+		"mangle":	"__gmpf_integer_p",
+		"c++":	"__gmpf_integer_p(mpf_srcptr)",
+		"go":	"X__GmpfIntegerP"
+	}, {
+		"mangle":	"__gmpf_mul",
+		"c++":	"__gmpf_mul(mpf_ptr, mpf_srcptr, mpf_srcptr)",
+		"go":	"X__GmpfMul"
+	}, {
+		"mangle":	"__gmpf_mul_2exp",
+		"c++":	"__gmpf_mul_2exp(mpf_ptr, mpf_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpfMul2exp"
+	}, {
+		"mangle":	"__gmpf_mul_ui",
+		"c++":	"__gmpf_mul_ui(mpf_ptr, mpf_srcptr, unsigned long)",
+		"go":	"X__GmpfMulUi"
+	}, {
+		"mangle":	"__gmpf_neg",
+		"c++":	"__gmpf_neg(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfNeg"
+	}, {
+		"mangle":	"__gmpf_pow_ui",
+		"c++":	"__gmpf_pow_ui(mpf_ptr, mpf_srcptr, unsigned long)",
+		"go":	"X__GmpfPowUi"
+	}, {
+		"mangle":	"__gmpf_random2",
+		"c++":	"__gmpf_random2(mpf_ptr, mp_size_t, mp_exp_t)",
+		"go":	"X__GmpfRandom2"
+	}, {
+		"mangle":	"__gmpf_reldiff",
+		"c++":	"__gmpf_reldiff(mpf_ptr, mpf_srcptr, mpf_srcptr)",
+		"go":	"X__GmpfReldiff"
+	}, {
+		"mangle":	"__gmpf_set",
+		"c++":	"__gmpf_set(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfSet"
+	}, {
+		"mangle":	"__gmpf_set_d",
+		"c++":	"__gmpf_set_d(mpf_ptr, double)",
+		"go":	"X__GmpfSetD"
+	}, {
+		"mangle":	"__gmpf_set_default_prec",
+		"c++":	"__gmpf_set_default_prec(mp_bitcnt_t)",
+		"go":	"MpBitcntT.X__GmpfSetDefaultPrec"
+	}, {
+		"mangle":	"__gmpf_set_prec",
+		"c++":	"__gmpf_set_prec(mpf_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpfSetPrec"
+	}, {
+		"mangle":	"__gmpf_set_prec_raw",
+		"c++":	"__gmpf_set_prec_raw(mpf_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpfSetPrecRaw"
+	}, {
+		"mangle":	"__gmpf_set_q",
+		"c++":	"__gmpf_set_q(mpf_ptr, mpq_srcptr)",
+		"go":	"X__GmpfSetQ"
+	}, {
+		"mangle":	"__gmpf_set_si",
+		"c++":	"__gmpf_set_si(mpf_ptr, long)",
+		"go":	"X__GmpfSetSi"
+	}, {
+		"mangle":	"__gmpf_set_str",
+		"c++":	"__gmpf_set_str(mpf_ptr, const char *, int)",
+		"go":	"X__GmpfSetStr"
+	}, {
+		"mangle":	"__gmpf_set_ui",
+		"c++":	"__gmpf_set_ui(mpf_ptr, unsigned long)",
+		"go":	"X__GmpfSetUi"
+	}, {
+		"mangle":	"__gmpf_set_z",
+		"c++":	"__gmpf_set_z(mpf_ptr, mpz_srcptr)",
+		"go":	"X__GmpfSetZ"
+	}, {
+		"mangle":	"__gmpf_size",
+		"c++":	"__gmpf_size(mpf_srcptr)",
+		"go":	"X__GmpfSize"
+	}, {
+		"mangle":	"__gmpf_sqrt",
+		"c++":	"__gmpf_sqrt(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfSqrt"
+	}, {
+		"mangle":	"__gmpf_sqrt_ui",
+		"c++":	"__gmpf_sqrt_ui(mpf_ptr, unsigned long)",
+		"go":	"X__GmpfSqrtUi"
+	}, {
+		"mangle":	"__gmpf_sub",
+		"c++":	"__gmpf_sub(mpf_ptr, mpf_srcptr, mpf_srcptr)",
+		"go":	"X__GmpfSub"
+	}, {
+		"mangle":	"__gmpf_sub_ui",
+		"c++":	"__gmpf_sub_ui(mpf_ptr, mpf_srcptr, unsigned long)",
+		"go":	"X__GmpfSubUi"
+	}, {
+		"mangle":	"__gmpf_swap",
+		"c++":	"__gmpf_swap(mpf_ptr, mpf_ptr)",
+		"go":	"X__GmpfSwap"
+	}, {
+		"mangle":	"__gmpf_trunc",
+		"c++":	"__gmpf_trunc(mpf_ptr, mpf_srcptr)",
+		"go":	"X__GmpfTrunc"
+	}, {
+		"mangle":	"__gmpf_ui_div",
+		"c++":	"__gmpf_ui_div(mpf_ptr, unsigned long, mpf_srcptr)",
+		"go":	"X__GmpfUiDiv"
+	}, {
+		"mangle":	"__gmpf_ui_sub",
+		"c++":	"__gmpf_ui_sub(mpf_ptr, unsigned long, mpf_srcptr)",
+		"go":	"X__GmpfUiSub"
+	}, {
+		"mangle":	"__gmpf_urandomb",
+		"c++":	"__gmpf_urandomb(mpf_ptr, gmp_randstate_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpfUrandomb"
+	}, {
+		"mangle":	"__gmpn_add",
+		"c++":	"__gmpn_add(mp_ptr, mp_srcptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnAdd"
+	}, {
+		"mangle":	"__gmpn_add_1",
+		"c++":	"__gmpn_add_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnAdd1"
+	}, {
+		"mangle":	"__gmpn_add_n",
+		"c++":	"__gmpn_add_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnAddN"
+	}, {
+		"mangle":	"__gmpn_addmul_1",
+		"c++":	"__gmpn_addmul_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnAddmul1"
+	}, {
+		"mangle":	"__gmpn_and_n",
+		"c++":	"__gmpn_and_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnAndN"
+	}, {
+		"mangle":	"__gmpn_andn_n",
+		"c++":	"__gmpn_andn_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnAndnN"
+	}, {
+		"mangle":	"__gmpn_cmp",
+		"c++":	"__gmpn_cmp(mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnCmp"
+	}, {
+		"mangle":	"__gmpn_cnd_add_n",
+		"c++":	"__gmpn_cnd_add_n(mp_limb_t, mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"MpLimbT.X__GmpnCndAddN"
+	}, {
+		"mangle":	"__gmpn_cnd_sub_n",
+		"c++":	"__gmpn_cnd_sub_n(mp_limb_t, mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"MpLimbT.X__GmpnCndSubN"
+	}, {
+		"mangle":	"__gmpn_cnd_swap",
+		"c++":	"__gmpn_cnd_swap(mp_limb_t, volatile mp_limb_t *, volatile mp_limb_t *, mp_size_t)",
+		"go":	"MpLimbT.X__GmpnCndSwap"
+	}, {
+		"mangle":	"__gmpn_com",
+		"c++":	"__gmpn_com(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnCom"
+	}, {
+		"mangle":	"__gmpn_copyd",
+		"c++":	"__gmpn_copyd(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnCopyd"
+	}, {
+		"mangle":	"__gmpn_copyi",
+		"c++":	"__gmpn_copyi(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnCopyi"
+	}, {
+		"mangle":	"__gmpn_div_qr_1",
+		"c++":	"__gmpn_div_qr_1(mp_ptr, mp_limb_t *, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnDivQr1"
+	}, {
+		"mangle":	"__gmpn_div_qr_2",
+		"c++":	"__gmpn_div_qr_2(mp_ptr, mp_ptr, mp_srcptr, mp_size_t, mp_srcptr)",
+		"go":	"X__GmpnDivQr2"
+	}, {
+		"mangle":	"__gmpn_divexact_1",
+		"c++":	"__gmpn_divexact_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnDivexact1"
+	}, {
+		"mangle":	"__gmpn_divexact_by3c",
+		"c++":	"__gmpn_divexact_by3c(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnDivexactBy3c"
+	}, {
+		"mangle":	"__gmpn_divrem",
+		"c++":	"__gmpn_divrem(mp_ptr, mp_size_t, mp_ptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnDivrem"
+	}, {
+		"mangle":	"__gmpn_divrem_1",
+		"c++":	"__gmpn_divrem_1(mp_ptr, mp_size_t, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnDivrem1"
+	}, {
+		"mangle":	"__gmpn_divrem_2",
+		"c++":	"__gmpn_divrem_2(mp_ptr, mp_size_t, mp_ptr, mp_size_t, mp_srcptr)",
+		"go":	"X__GmpnDivrem2"
+	}, {
+		"mangle":	"__gmpn_gcd",
+		"c++":	"__gmpn_gcd(mp_ptr, mp_ptr, mp_size_t, mp_ptr, mp_size_t)",
+		"go":	"X__GmpnGcd"
+	}, {
+		"mangle":	"__gmpn_gcd_1",
+		"c++":	"__gmpn_gcd_1(mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnGcd1"
+	}, {
+		"mangle":	"__gmpn_gcd_11",
+		"c++":	"__gmpn_gcd_11(mp_limb_t, mp_limb_t)",
+		"go":	"MpLimbT.X__GmpnGcd11"
+	}, {
+		"mangle":	"__gmpn_gcdext",
+		"c++":	"__gmpn_gcdext(mp_ptr, mp_ptr, mp_size_t *, mp_ptr, mp_size_t, mp_ptr, mp_size_t)",
+		"go":	"X__GmpnGcdext"
+	}, {
+		"mangle":	"__gmpn_gcdext_1",
+		"c++":	"__gmpn_gcdext_1(mp_limb_signed_t *, mp_limb_signed_t *, mp_limb_t, mp_limb_t)",
+		"go":	"(*MpLimbSignedT).X__GmpnGcdext1"
+	}, {
+		"mangle":	"__gmpn_get_str",
+		"c++":	"__gmpn_get_str(unsigned char *, int, mp_ptr, mp_size_t)",
+		"go":	"X__GmpnGetStr"
+	}, {
+		"mangle":	"__gmpn_hamdist",
+		"c++":	"__gmpn_hamdist(mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnHamdist"
+	}, {
+		"mangle":	"__gmpn_ior_n",
+		"c++":	"__gmpn_ior_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnIorN"
+	}, {
+		"mangle":	"__gmpn_iorn_n",
+		"c++":	"__gmpn_iorn_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnIornN"
+	}, {
+		"mangle":	"__gmpn_lshift",
+		"c++":	"__gmpn_lshift(mp_ptr, mp_srcptr, mp_size_t, unsigned int)",
+		"go":	"X__GmpnLshift"
+	}, {
+		"mangle":	"__gmpn_mod_1",
+		"c++":	"__gmpn_mod_1(mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnMod1"
+	}, {
+		"mangle":	"__gmpn_mul",
+		"c++":	"__gmpn_mul(mp_ptr, mp_srcptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnMul"
+	}, {
+		"mangle":	"__gmpn_mul_1",
+		"c++":	"__gmpn_mul_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnMul1"
+	}, {
+		"mangle":	"__gmpn_mul_n",
+		"c++":	"__gmpn_mul_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnMulN"
+	}, {
+		"mangle":	"__gmpn_nand_n",
+		"c++":	"__gmpn_nand_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnNandN"
+	}, {
+		"mangle":	"__gmpn_neg",
+		"c++":	"__gmpn_neg(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnNeg"
+	}, {
+		"mangle":	"__gmpn_nior_n",
+		"c++":	"__gmpn_nior_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnNiorN"
+	}, {
+		"mangle":	"__gmpn_perfect_power_p",
+		"c++":	"__gmpn_perfect_power_p(mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnPerfectPowerP"
+	}, {
+		"mangle":	"__gmpn_perfect_square_p",
+		"c++":	"__gmpn_perfect_square_p(mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnPerfectSquareP"
+	}, {
+		"mangle":	"__gmpn_popcount",
+		"c++":	"__gmpn_popcount(mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnPopcount"
+	}, {
+		"mangle":	"__gmpn_pow_1",
+		"c++":	"__gmpn_pow_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t, mp_ptr)",
+		"go":	"X__GmpnPow1"
+	}, {
+		"mangle":	"__gmpn_preinv_mod_1",
+		"c++":	"__gmpn_preinv_mod_1(mp_srcptr, mp_size_t, mp_limb_t, mp_limb_t)",
+		"go":	"X__GmpnPreinvMod1"
+	}, {
+		"mangle":	"__gmpn_random",
+		"c++":	"__gmpn_random(mp_ptr, mp_size_t)",
+		"go":	"X__GmpnRandom"
+	}, {
+		"mangle":	"__gmpn_random2",
+		"c++":	"__gmpn_random2(mp_ptr, mp_size_t)",
+		"go":	"X__GmpnRandom2"
+	}, {
+		"mangle":	"__gmpn_rshift",
+		"c++":	"__gmpn_rshift(mp_ptr, mp_srcptr, mp_size_t, unsigned int)",
+		"go":	"X__GmpnRshift"
+	}, {
+		"mangle":	"__gmpn_scan0",
+		"c++":	"__gmpn_scan0(mp_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpnScan0"
+	}, {
+		"mangle":	"__gmpn_scan1",
+		"c++":	"__gmpn_scan1(mp_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpnScan1"
+	}, {
+		"mangle":	"__gmpn_sec_add_1",
+		"c++":	"__gmpn_sec_add_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t, mp_ptr)",
+		"go":	"X__GmpnSecAdd1"
+	}, {
+		"mangle":	"__gmpn_sec_add_1_itch",
+		"c++":	"__gmpn_sec_add_1_itch(mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecAdd1Itch"
+	}, {
+		"mangle":	"__gmpn_sec_div_qr",
+		"c++":	"__gmpn_sec_div_qr(mp_ptr, mp_ptr, mp_size_t, mp_srcptr, mp_size_t, mp_ptr)",
+		"go":	"X__GmpnSecDivQr"
+	}, {
+		"mangle":	"__gmpn_sec_div_qr_itch",
+		"c++":	"__gmpn_sec_div_qr_itch(mp_size_t, mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecDivQrItch"
+	}, {
+		"mangle":	"__gmpn_sec_div_r",
+		"c++":	"__gmpn_sec_div_r(mp_ptr, mp_size_t, mp_srcptr, mp_size_t, mp_ptr)",
+		"go":	"X__GmpnSecDivR"
+	}, {
+		"mangle":	"__gmpn_sec_div_r_itch",
+		"c++":	"__gmpn_sec_div_r_itch(mp_size_t, mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecDivRItch"
+	}, {
+		"mangle":	"__gmpn_sec_invert",
+		"c++":	"__gmpn_sec_invert(mp_ptr, mp_ptr, mp_srcptr, mp_size_t, mp_bitcnt_t, mp_ptr)",
+		"go":	"X__GmpnSecInvert"
+	}, {
+		"mangle":	"__gmpn_sec_invert_itch",
+		"c++":	"__gmpn_sec_invert_itch(mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecInvertItch"
+	}, {
+		"mangle":	"__gmpn_sec_mul",
+		"c++":	"__gmpn_sec_mul(mp_ptr, mp_srcptr, mp_size_t, mp_srcptr, mp_size_t, mp_ptr)",
+		"go":	"X__GmpnSecMul"
+	}, {
+		"mangle":	"__gmpn_sec_mul_itch",
+		"c++":	"__gmpn_sec_mul_itch(mp_size_t, mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecMulItch"
+	}, {
+		"mangle":	"__gmpn_sec_powm",
+		"c++":	"__gmpn_sec_powm(mp_ptr, mp_srcptr, mp_size_t, mp_srcptr, mp_bitcnt_t, mp_srcptr, mp_size_t, mp_ptr)",
+		"go":	"X__GmpnSecPowm"
+	}, {
+		"mangle":	"__gmpn_sec_powm_itch",
+		"c++":	"__gmpn_sec_powm_itch(mp_size_t, mp_bitcnt_t, mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecPowmItch"
+	}, {
+		"mangle":	"__gmpn_sec_sqr",
+		"c++":	"__gmpn_sec_sqr(mp_ptr, mp_srcptr, mp_size_t, mp_ptr)",
+		"go":	"X__GmpnSecSqr"
+	}, {
+		"mangle":	"__gmpn_sec_sqr_itch",
+		"c++":	"__gmpn_sec_sqr_itch(mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecSqrItch"
+	}, {
+		"mangle":	"__gmpn_sec_sub_1",
+		"c++":	"__gmpn_sec_sub_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t, mp_ptr)",
+		"go":	"X__GmpnSecSub1"
+	}, {
+		"mangle":	"__gmpn_sec_sub_1_itch",
+		"c++":	"__gmpn_sec_sub_1_itch(mp_size_t)",
+		"go":	"MpSizeT.X__GmpnSecSub1Itch"
+	}, {
+		"mangle":	"__gmpn_sec_tabselect",
+		"c++":	"__gmpn_sec_tabselect(volatile mp_limb_t *, const volatile mp_limb_t *, mp_size_t, mp_size_t, mp_size_t)",
+		"go":	"(*MpLimbT).X__GmpnSecTabselect"
+	}, {
+		"mangle":	"__gmpn_set_str",
+		"c++":	"__gmpn_set_str(mp_ptr, const unsigned char *, size_t, int)",
+		"go":	"X__GmpnSetStr"
+	}, {
+		"mangle":	"__gmpn_sizeinbase",
+		"c++":	"__gmpn_sizeinbase(mp_srcptr, mp_size_t, int)",
+		"go":	"X__GmpnSizeinbase"
+	}, {
+		"mangle":	"__gmpn_sqr",
+		"c++":	"__gmpn_sqr(mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnSqr"
+	}, {
+		"mangle":	"__gmpn_sqrtrem",
+		"c++":	"__gmpn_sqrtrem(mp_ptr, mp_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnSqrtrem"
+	}, {
+		"mangle":	"__gmpn_sub",
+		"c++":	"__gmpn_sub(mp_ptr, mp_srcptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnSub"
+	}, {
+		"mangle":	"__gmpn_sub_1",
+		"c++":	"__gmpn_sub_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnSub1"
+	}, {
+		"mangle":	"__gmpn_sub_n",
+		"c++":	"__gmpn_sub_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnSubN"
+	}, {
+		"mangle":	"__gmpn_submul_1",
+		"c++":	"__gmpn_submul_1(mp_ptr, mp_srcptr, mp_size_t, mp_limb_t)",
+		"go":	"X__GmpnSubmul1"
+	}, {
+		"mangle":	"__gmpn_tdiv_qr",
+		"c++":	"__gmpn_tdiv_qr(mp_ptr, mp_ptr, mp_size_t, mp_srcptr, mp_size_t, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnTdivQr"
+	}, {
+		"mangle":	"__gmpn_xnor_n",
+		"c++":	"__gmpn_xnor_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnXnorN"
+	}, {
+		"mangle":	"__gmpn_xor_n",
+		"c++":	"__gmpn_xor_n(mp_ptr, mp_srcptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnXorN"
+	}, {
+		"mangle":	"__gmpn_zero",
+		"c++":	"__gmpn_zero(mp_ptr, mp_size_t)",
+		"go":	"X__GmpnZero"
+	}, {
+		"mangle":	"__gmpn_zero_p",
+		"c++":	"__gmpn_zero_p(mp_srcptr, mp_size_t)",
+		"go":	"X__GmpnZeroP"
+	}, {
+		"mangle":	"__gmpq_abs",
+		"c++":	"__gmpq_abs(mpq_ptr, mpq_srcptr)",
+		"go":	"X__GmpqAbs"
+	}, {
+		"mangle":	"__gmpq_add",
+		"c++":	"__gmpq_add(mpq_ptr, mpq_srcptr, mpq_srcptr)",
+		"go":	"X__GmpqAdd"
+	}, {
+		"mangle":	"__gmpq_canonicalize",
+		"c++":	"__gmpq_canonicalize(mpq_ptr)",
+		"go":	"X__GmpqCanonicalize"
+	}, {
+		"mangle":	"__gmpq_clear",
+		"c++":	"__gmpq_clear(mpq_ptr)",
+		"go":	"X__GmpqClear"
+	}, {
+		"mangle":	"__gmpq_clears",
+		"c++":	"__gmpq_clears(mpq_ptr, ...)",
+		"go":	"X__GmpqClears"
+	}, {
+		"mangle":	"__gmpq_cmp",
+		"c++":	"__gmpq_cmp(mpq_srcptr, mpq_srcptr)",
+		"go":	"X__GmpqCmp"
+	}, {
+		"mangle":	"__gmpq_cmp_si",
+		"c++":	"__gmpq_cmp_si(mpq_srcptr, long, unsigned long)",
+		"go":	"X__GmpqCmpSi"
+	}, {
+		"mangle":	"__gmpq_cmp_ui",
+		"c++":	"__gmpq_cmp_ui(mpq_srcptr, unsigned long, unsigned long)",
+		"go":	"X__GmpqCmpUi"
+	}, {
+		"mangle":	"__gmpq_cmp_z",
+		"c++":	"__gmpq_cmp_z(mpq_srcptr, mpz_srcptr)",
+		"go":	"X__GmpqCmpZ"
+	}, {
+		"mangle":	"__gmpq_div",
+		"c++":	"__gmpq_div(mpq_ptr, mpq_srcptr, mpq_srcptr)",
+		"go":	"X__GmpqDiv"
+	}, {
+		"mangle":	"__gmpq_div_2exp",
+		"c++":	"__gmpq_div_2exp(mpq_ptr, mpq_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpqDiv2exp"
+	}, {
+		"mangle":	"__gmpq_equal",
+		"c++":	"__gmpq_equal(mpq_srcptr, mpq_srcptr)",
+		"go":	"X__GmpqEqual"
+	}, {
+		"mangle":	"__gmpq_get_d",
+		"c++":	"__gmpq_get_d(mpq_srcptr)",
+		"go":	"X__GmpqGetD"
+	}, {
+		"mangle":	"__gmpq_get_den",
+		"c++":	"__gmpq_get_den(mpz_ptr, mpq_srcptr)",
+		"go":	"X__GmpqGetDen"
+	}, {
+		"mangle":	"__gmpq_get_num",
+		"c++":	"__gmpq_get_num(mpz_ptr, mpq_srcptr)",
+		"go":	"X__GmpqGetNum"
+	}, {
+		"mangle":	"__gmpq_get_str",
+		"c++":	"__gmpq_get_str(char *, int, mpq_srcptr)",
+		"go":	"X__GmpqGetStr"
+	}, {
+		"mangle":	"__gmpq_init",
+		"c++":	"__gmpq_init(mpq_ptr)",
+		"go":	"X__GmpqInit"
+	}, {
+		"mangle":	"__gmpq_inits",
+		"c++":	"__gmpq_inits(mpq_ptr, ...)",
+		"go":	"X__GmpqInits"
+	}, {
+		"mangle":	"__gmpq_inv",
+		"c++":	"__gmpq_inv(mpq_ptr, mpq_srcptr)",
+		"go":	"X__GmpqInv"
+	}, {
+		"mangle":	"__gmpq_mul",
+		"c++":	"__gmpq_mul(mpq_ptr, mpq_srcptr, mpq_srcptr)",
+		"go":	"X__GmpqMul"
+	}, {
+		"mangle":	"__gmpq_mul_2exp",
+		"c++":	"__gmpq_mul_2exp(mpq_ptr, mpq_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpqMul2exp"
+	}, {
+		"mangle":	"__gmpq_neg",
+		"c++":	"__gmpq_neg(mpq_ptr, mpq_srcptr)",
+		"go":	"X__GmpqNeg"
+	}, {
+		"mangle":	"__gmpq_set",
+		"c++":	"__gmpq_set(mpq_ptr, mpq_srcptr)",
+		"go":	"X__GmpqSet"
+	}, {
+		"mangle":	"__gmpq_set_d",
+		"c++":	"__gmpq_set_d(mpq_ptr, double)",
+		"go":	"X__GmpqSetD"
+	}, {
+		"mangle":	"__gmpq_set_den",
+		"c++":	"__gmpq_set_den(mpq_ptr, mpz_srcptr)",
+		"go":	"X__GmpqSetDen"
+	}, {
+		"mangle":	"__gmpq_set_f",
+		"c++":	"__gmpq_set_f(mpq_ptr, mpf_srcptr)",
+		"go":	"X__GmpqSetF"
+	}, {
+		"mangle":	"__gmpq_set_num",
+		"c++":	"__gmpq_set_num(mpq_ptr, mpz_srcptr)",
+		"go":	"X__GmpqSetNum"
+	}, {
+		"mangle":	"__gmpq_set_si",
+		"c++":	"__gmpq_set_si(mpq_ptr, long, unsigned long)",
+		"go":	"X__GmpqSetSi"
+	}, {
+		"mangle":	"__gmpq_set_str",
+		"c++":	"__gmpq_set_str(mpq_ptr, const char *, int)",
+		"go":	"X__GmpqSetStr"
+	}, {
+		"mangle":	"__gmpq_set_ui",
+		"c++":	"__gmpq_set_ui(mpq_ptr, unsigned long, unsigned long)",
+		"go":	"X__GmpqSetUi"
+	}, {
+		"mangle":	"__gmpq_set_z",
+		"c++":	"__gmpq_set_z(mpq_ptr, mpz_srcptr)",
+		"go":	"X__GmpqSetZ"
+	}, {
+		"mangle":	"__gmpq_sub",
+		"c++":	"__gmpq_sub(mpq_ptr, mpq_srcptr, mpq_srcptr)",
+		"go":	"X__GmpqSub"
+	}, {
+		"mangle":	"__gmpq_swap",
+		"c++":	"__gmpq_swap(mpq_ptr, mpq_ptr)",
+		"go":	"X__GmpqSwap"
+	}, {
+		"mangle":	"__gmpz_2fac_ui",
+		"c++":	"__gmpz_2fac_ui(mpz_ptr, unsigned long)",
+		"go":	"X__Gmpz2facUi"
+	}, {
+		"mangle":	"__gmpz_abs",
+		"c++":	"__gmpz_abs(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzAbs"
+	}, {
+		"mangle":	"__gmpz_add",
+		"c++":	"__gmpz_add(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzAdd"
+	}, {
+		"mangle":	"__gmpz_add_ui",
+		"c++":	"__gmpz_add_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzAddUi"
+	}, {
+		"mangle":	"__gmpz_addmul",
+		"c++":	"__gmpz_addmul(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzAddmul"
+	}, {
+		"mangle":	"__gmpz_addmul_ui",
+		"c++":	"__gmpz_addmul_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzAddmulUi"
+	}, {
+		"mangle":	"__gmpz_and",
+		"c++":	"__gmpz_and(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzAnd"
+	}, {
+		"mangle":	"__gmpz_array_init",
+		"c++":	"__gmpz_array_init(mpz_ptr, mp_size_t, mp_size_t)",
+		"go":	"X__GmpzArrayInit"
+	}, {
+		"mangle":	"__gmpz_bin_ui",
+		"c++":	"__gmpz_bin_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzBinUi"
+	}, {
+		"mangle":	"__gmpz_bin_uiui",
+		"c++":	"__gmpz_bin_uiui(mpz_ptr, unsigned long, unsigned long)",
+		"go":	"X__GmpzBinUiui"
+	}, {
+		"mangle":	"__gmpz_cdiv_q",
+		"c++":	"__gmpz_cdiv_q(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCdivQ"
+	}, {
+		"mangle":	"__gmpz_cdiv_q_2exp",
+		"c++":	"__gmpz_cdiv_q_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzCdivQ2exp"
+	}, {
+		"mangle":	"__gmpz_cdiv_q_ui",
+		"c++":	"__gmpz_cdiv_q_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCdivQUi"
+	}, {
+		"mangle":	"__gmpz_cdiv_qr",
+		"c++":	"__gmpz_cdiv_qr(mpz_ptr, mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCdivQr"
+	}, {
+		"mangle":	"__gmpz_cdiv_qr_ui",
+		"c++":	"__gmpz_cdiv_qr_ui(mpz_ptr, mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCdivQrUi"
+	}, {
+		"mangle":	"__gmpz_cdiv_r",
+		"c++":	"__gmpz_cdiv_r(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCdivR"
+	}, {
+		"mangle":	"__gmpz_cdiv_r_2exp",
+		"c++":	"__gmpz_cdiv_r_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzCdivR2exp"
+	}, {
+		"mangle":	"__gmpz_cdiv_r_ui",
+		"c++":	"__gmpz_cdiv_r_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCdivRUi"
+	}, {
+		"mangle":	"__gmpz_cdiv_ui",
+		"c++":	"__gmpz_cdiv_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCdivUi"
+	}, {
+		"mangle":	"__gmpz_clear",
+		"c++":	"__gmpz_clear(mpz_ptr)",
+		"go":	"X__GmpzClear"
+	}, {
+		"mangle":	"__gmpz_clears",
+		"c++":	"__gmpz_clears(mpz_ptr, ...)",
+		"go":	"X__GmpzClears"
+	}, {
+		"mangle":	"__gmpz_clrbit",
+		"c++":	"__gmpz_clrbit(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzClrbit"
+	}, {
+		"mangle":	"__gmpz_cmp",
+		"c++":	"__gmpz_cmp(mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCmp"
+	}, {
+		"mangle":	"__gmpz_cmp_d",
+		"c++":	"__gmpz_cmp_d(mpz_srcptr, double)",
+		"go":	"X__GmpzCmpD"
+	}, {
+		"mangle":	"__gmpz_cmp_si",
+		"c++":	"__gmpz_cmp_si(mpz_srcptr, long)",
+		"go":	"X__GmpzCmpSi"
+	}, {
+		"mangle":	"__gmpz_cmp_ui",
+		"c++":	"__gmpz_cmp_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCmpUi"
+	}, {
+		"mangle":	"__gmpz_cmpabs",
+		"c++":	"__gmpz_cmpabs(mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCmpabs"
+	}, {
+		"mangle":	"__gmpz_cmpabs_d",
+		"c++":	"__gmpz_cmpabs_d(mpz_srcptr, double)",
+		"go":	"X__GmpzCmpabsD"
+	}, {
+		"mangle":	"__gmpz_cmpabs_ui",
+		"c++":	"__gmpz_cmpabs_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzCmpabsUi"
+	}, {
+		"mangle":	"__gmpz_com",
+		"c++":	"__gmpz_com(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzCom"
+	}, {
+		"mangle":	"__gmpz_combit",
+		"c++":	"__gmpz_combit(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzCombit"
+	}, {
+		"mangle":	"__gmpz_congruent_2exp_p",
+		"c++":	"__gmpz_congruent_2exp_p(mpz_srcptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzCongruent2expP"
+	}, {
+		"mangle":	"__gmpz_congruent_p",
+		"c++":	"__gmpz_congruent_p(mpz_srcptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzCongruentP"
+	}, {
+		"mangle":	"__gmpz_congruent_ui_p",
+		"c++":	"__gmpz_congruent_ui_p(mpz_srcptr, unsigned long, unsigned long)",
+		"go":	"X__GmpzCongruentUiP"
+	}, {
+		"mangle":	"__gmpz_divexact",
+		"c++":	"__gmpz_divexact(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzDivexact"
+	}, {
+		"mangle":	"__gmpz_divexact_ui",
+		"c++":	"__gmpz_divexact_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzDivexactUi"
+	}, {
+		"mangle":	"__gmpz_divisible_2exp_p",
+		"c++":	"__gmpz_divisible_2exp_p(mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzDivisible2expP"
+	}, {
+		"mangle":	"__gmpz_divisible_p",
+		"c++":	"__gmpz_divisible_p(mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzDivisibleP"
+	}, {
+		"mangle":	"__gmpz_divisible_ui_p",
+		"c++":	"__gmpz_divisible_ui_p(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzDivisibleUiP"
+	}, {
+		"mangle":	"__gmpz_dump",
+		"c++":	"__gmpz_dump(mpz_srcptr)",
+		"go":	"X__GmpzDump"
+	}, {
+		"mangle":	"__gmpz_export",
+		"c++":	"__gmpz_export(void *, size_t *, int, size_t, int, size_t, mpz_srcptr)",
+		"go":	"X__GmpzExport"
+	}, {
+		"mangle":	"__gmpz_fac_ui",
+		"c++":	"__gmpz_fac_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzFacUi"
+	}, {
+		"mangle":	"__gmpz_fdiv_q",
+		"c++":	"__gmpz_fdiv_q(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzFdivQ"
+	}, {
+		"mangle":	"__gmpz_fdiv_q_2exp",
+		"c++":	"__gmpz_fdiv_q_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzFdivQ2exp"
+	}, {
+		"mangle":	"__gmpz_fdiv_q_ui",
+		"c++":	"__gmpz_fdiv_q_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzFdivQUi"
+	}, {
+		"mangle":	"__gmpz_fdiv_qr",
+		"c++":	"__gmpz_fdiv_qr(mpz_ptr, mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzFdivQr"
+	}, {
+		"mangle":	"__gmpz_fdiv_qr_ui",
+		"c++":	"__gmpz_fdiv_qr_ui(mpz_ptr, mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzFdivQrUi"
+	}, {
+		"mangle":	"__gmpz_fdiv_r",
+		"c++":	"__gmpz_fdiv_r(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzFdivR"
+	}, {
+		"mangle":	"__gmpz_fdiv_r_2exp",
+		"c++":	"__gmpz_fdiv_r_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzFdivR2exp"
+	}, {
+		"mangle":	"__gmpz_fdiv_r_ui",
+		"c++":	"__gmpz_fdiv_r_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzFdivRUi"
+	}, {
+		"mangle":	"__gmpz_fdiv_ui",
+		"c++":	"__gmpz_fdiv_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzFdivUi"
+	}, {
+		"mangle":	"__gmpz_fib2_ui",
+		"c++":	"__gmpz_fib2_ui(mpz_ptr, mpz_ptr, unsigned long)",
+		"go":	"X__GmpzFib2Ui"
+	}, {
+		"mangle":	"__gmpz_fib_ui",
+		"c++":	"__gmpz_fib_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzFibUi"
+	}, {
+		"mangle":	"__gmpz_fits_sint_p",
+		"c++":	"__gmpz_fits_sint_p(mpz_srcptr)",
+		"go":	"X__GmpzFitsSintP"
+	}, {
+		"mangle":	"__gmpz_fits_slong_p",
+		"c++":	"__gmpz_fits_slong_p(mpz_srcptr)",
+		"go":	"X__GmpzFitsSlongP"
+	}, {
+		"mangle":	"__gmpz_fits_sshort_p",
+		"c++":	"__gmpz_fits_sshort_p(mpz_srcptr)",
+		"go":	"X__GmpzFitsSshortP"
+	}, {
+		"mangle":	"__gmpz_fits_uint_p",
+		"c++":	"__gmpz_fits_uint_p(mpz_srcptr)",
+		"go":	"X__GmpzFitsUintP"
+	}, {
+		"mangle":	"__gmpz_fits_ulong_p",
+		"c++":	"__gmpz_fits_ulong_p(mpz_srcptr)",
+		"go":	"X__GmpzFitsUlongP"
+	}, {
+		"mangle":	"__gmpz_fits_ushort_p",
+		"c++":	"__gmpz_fits_ushort_p(mpz_srcptr)",
+		"go":	"X__GmpzFitsUshortP"
+	}, {
+		"mangle":	"__gmpz_gcd",
+		"c++":	"__gmpz_gcd(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzGcd"
+	}, {
+		"mangle":	"__gmpz_gcd_ui",
+		"c++":	"__gmpz_gcd_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzGcdUi"
+	}, {
+		"mangle":	"__gmpz_gcdext",
+		"c++":	"__gmpz_gcdext(mpz_ptr, mpz_ptr, mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzGcdext"
+	}, {
+		"mangle":	"__gmpz_get_d",
+		"c++":	"__gmpz_get_d(mpz_srcptr)",
+		"go":	"X__GmpzGetD"
+	}, {
+		"mangle":	"__gmpz_get_d_2exp",
+		"c++":	"__gmpz_get_d_2exp(long *, mpz_srcptr)",
+		"go":	"X__GmpzGetD2exp"
+	}, {
+		"mangle":	"__gmpz_get_si",
+		"c++":	"__gmpz_get_si(mpz_srcptr)",
+		"go":	"X__GmpzGetSi"
+	}, {
+		"mangle":	"__gmpz_get_str",
+		"c++":	"__gmpz_get_str(char *, int, mpz_srcptr)",
+		"go":	"X__GmpzGetStr"
+	}, {
+		"mangle":	"__gmpz_get_ui",
+		"c++":	"__gmpz_get_ui(mpz_srcptr)",
+		"go":	"X__GmpzGetUi"
+	}, {
+		"mangle":	"__gmpz_getlimbn",
+		"c++":	"__gmpz_getlimbn(mpz_srcptr, mp_size_t)",
+		"go":	"X__GmpzGetlimbn"
+	}, {
+		"mangle":	"__gmpz_hamdist",
+		"c++":	"__gmpz_hamdist(mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzHamdist"
+	}, {
+		"mangle":	"__gmpz_import",
+		"c++":	"__gmpz_import(mpz_ptr, size_t, int, size_t, int, size_t, const void *)",
+		"go":	"X__GmpzImport"
+	}, {
+		"mangle":	"__gmpz_init",
+		"c++":	"__gmpz_init(mpz_ptr)",
+		"go":	"X__GmpzInit"
+	}, {
+		"mangle":	"__gmpz_init2",
+		"c++":	"__gmpz_init2(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzInit2"
+	}, {
+		"mangle":	"__gmpz_init_set",
+		"c++":	"__gmpz_init_set(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzInitSet"
+	}, {
+		"mangle":	"__gmpz_init_set_d",
+		"c++":	"__gmpz_init_set_d(mpz_ptr, double)",
+		"go":	"X__GmpzInitSetD"
+	}, {
+		"mangle":	"__gmpz_init_set_si",
+		"c++":	"__gmpz_init_set_si(mpz_ptr, long)",
+		"go":	"X__GmpzInitSetSi"
+	}, {
+		"mangle":	"__gmpz_init_set_str",
+		"c++":	"__gmpz_init_set_str(mpz_ptr, const char *, int)",
+		"go":	"X__GmpzInitSetStr"
+	}, {
+		"mangle":	"__gmpz_init_set_ui",
+		"c++":	"__gmpz_init_set_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzInitSetUi"
+	}, {
+		"mangle":	"__gmpz_inits",
+		"c++":	"__gmpz_inits(mpz_ptr, ...)",
+		"go":	"X__GmpzInits"
+	}, {
+		"mangle":	"__gmpz_invert",
+		"c++":	"__gmpz_invert(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzInvert"
+	}, {
+		"mangle":	"__gmpz_ior",
+		"c++":	"__gmpz_ior(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzIor"
+	}, {
+		"mangle":	"__gmpz_jacobi",
+		"c++":	"__gmpz_jacobi(mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzJacobi"
+	}, {
+		"mangle":	"__gmpz_kronecker_si",
+		"c++":	"__gmpz_kronecker_si(mpz_srcptr, long)",
+		"go":	"X__GmpzKroneckerSi"
+	}, {
+		"mangle":	"__gmpz_kronecker_ui",
+		"c++":	"__gmpz_kronecker_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzKroneckerUi"
+	}, {
+		"mangle":	"__gmpz_lcm",
+		"c++":	"__gmpz_lcm(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzLcm"
+	}, {
+		"mangle":	"__gmpz_lcm_ui",
+		"c++":	"__gmpz_lcm_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzLcmUi"
+	}, {
+		"mangle":	"__gmpz_limbs_finish",
+		"c++":	"__gmpz_limbs_finish(mpz_ptr, mp_size_t)",
+		"go":	"X__GmpzLimbsFinish"
+	}, {
+		"mangle":	"__gmpz_limbs_modify",
+		"c++":	"__gmpz_limbs_modify(mpz_ptr, mp_size_t)",
+		"go":	"X__GmpzLimbsModify"
+	}, {
+		"mangle":	"__gmpz_limbs_read",
+		"c++":	"__gmpz_limbs_read(mpz_srcptr)",
+		"go":	"X__GmpzLimbsRead"
+	}, {
+		"mangle":	"__gmpz_limbs_write",
+		"c++":	"__gmpz_limbs_write(mpz_ptr, mp_size_t)",
+		"go":	"X__GmpzLimbsWrite"
+	}, {
+		"mangle":	"__gmpz_lucnum2_ui",
+		"c++":	"__gmpz_lucnum2_ui(mpz_ptr, mpz_ptr, unsigned long)",
+		"go":	"X__GmpzLucnum2Ui"
+	}, {
+		"mangle":	"__gmpz_lucnum_ui",
+		"c++":	"__gmpz_lucnum_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzLucnumUi"
+	}, {
+		"mangle":	"__gmpz_mfac_uiui",
+		"c++":	"__gmpz_mfac_uiui(mpz_ptr, unsigned long, unsigned long)",
+		"go":	"X__GmpzMfacUiui"
+	}, {
+		"mangle":	"__gmpz_millerrabin",
+		"c++":	"__gmpz_millerrabin(mpz_srcptr, int)",
+		"go":	"X__GmpzMillerrabin"
+	}, {
+		"mangle":	"__gmpz_mod",
+		"c++":	"__gmpz_mod(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzMod"
+	}, {
+		"mangle":	"__gmpz_mul",
+		"c++":	"__gmpz_mul(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzMul"
+	}, {
+		"mangle":	"__gmpz_mul_2exp",
+		"c++":	"__gmpz_mul_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzMul2exp"
+	}, {
+		"mangle":	"__gmpz_mul_si",
+		"c++":	"__gmpz_mul_si(mpz_ptr, mpz_srcptr, long)",
+		"go":	"X__GmpzMulSi"
+	}, {
+		"mangle":	"__gmpz_mul_ui",
+		"c++":	"__gmpz_mul_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzMulUi"
+	}, {
+		"mangle":	"__gmpz_neg",
+		"c++":	"__gmpz_neg(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzNeg"
+	}, {
+		"mangle":	"__gmpz_nextprime",
+		"c++":	"__gmpz_nextprime(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzNextprime"
+	}, {
+		"mangle":	"__gmpz_perfect_power_p",
+		"c++":	"__gmpz_perfect_power_p(mpz_srcptr)",
+		"go":	"X__GmpzPerfectPowerP"
+	}, {
+		"mangle":	"__gmpz_perfect_square_p",
+		"c++":	"__gmpz_perfect_square_p(mpz_srcptr)",
+		"go":	"X__GmpzPerfectSquareP"
+	}, {
+		"mangle":	"__gmpz_popcount",
+		"c++":	"__gmpz_popcount(mpz_srcptr)",
+		"go":	"X__GmpzPopcount"
+	}, {
+		"mangle":	"__gmpz_pow_ui",
+		"c++":	"__gmpz_pow_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzPowUi"
+	}, {
+		"mangle":	"__gmpz_powm",
+		"c++":	"__gmpz_powm(mpz_ptr, mpz_srcptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzPowm"
+	}, {
+		"mangle":	"__gmpz_powm_sec",
+		"c++":	"__gmpz_powm_sec(mpz_ptr, mpz_srcptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzPowmSec"
+	}, {
+		"mangle":	"__gmpz_powm_ui",
+		"c++":	"__gmpz_powm_ui(mpz_ptr, mpz_srcptr, unsigned long, mpz_srcptr)",
+		"go":	"X__GmpzPowmUi"
+	}, {
+		"mangle":	"__gmpz_prevprime",
+		"c++":	"__gmpz_prevprime(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzPrevprime"
+	}, {
+		"mangle":	"__gmpz_primorial_ui",
+		"c++":	"__gmpz_primorial_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzPrimorialUi"
+	}, {
+		"mangle":	"__gmpz_probab_prime_p",
+		"c++":	"__gmpz_probab_prime_p(mpz_srcptr, int)",
+		"go":	"X__GmpzProbabPrimeP"
+	}, {
+		"mangle":	"__gmpz_random",
+		"c++":	"__gmpz_random(mpz_ptr, mp_size_t)",
+		"go":	"X__GmpzRandom"
+	}, {
+		"mangle":	"__gmpz_random2",
+		"c++":	"__gmpz_random2(mpz_ptr, mp_size_t)",
+		"go":	"X__GmpzRandom2"
+	}, {
+		"mangle":	"__gmpz_realloc",
+		"c++":	"__gmpz_realloc(mpz_ptr, mp_size_t)",
+		"go":	"X__GmpzRealloc"
+	}, {
+		"mangle":	"__gmpz_realloc2",
+		"c++":	"__gmpz_realloc2(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzRealloc2"
+	}, {
+		"mangle":	"__gmpz_remove",
+		"c++":	"__gmpz_remove(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzRemove"
+	}, {
+		"mangle":	"__gmpz_roinit_n",
+		"c++":	"__gmpz_roinit_n(mpz_ptr, mp_srcptr, mp_size_t)",
+		"go":	"X__GmpzRoinitN"
+	}, {
+		"mangle":	"__gmpz_root",
+		"c++":	"__gmpz_root(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzRoot"
+	}, {
+		"mangle":	"__gmpz_rootrem",
+		"c++":	"__gmpz_rootrem(mpz_ptr, mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzRootrem"
+	}, {
+		"mangle":	"__gmpz_rrandomb",
+		"c++":	"__gmpz_rrandomb(mpz_ptr, gmp_randstate_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzRrandomb"
+	}, {
+		"mangle":	"__gmpz_scan0",
+		"c++":	"__gmpz_scan0(mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzScan0"
+	}, {
+		"mangle":	"__gmpz_scan1",
+		"c++":	"__gmpz_scan1(mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzScan1"
+	}, {
+		"mangle":	"__gmpz_set",
+		"c++":	"__gmpz_set(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzSet"
+	}, {
+		"mangle":	"__gmpz_set_d",
+		"c++":	"__gmpz_set_d(mpz_ptr, double)",
+		"go":	"X__GmpzSetD"
+	}, {
+		"mangle":	"__gmpz_set_f",
+		"c++":	"__gmpz_set_f(mpz_ptr, mpf_srcptr)",
+		"go":	"X__GmpzSetF"
+	}, {
+		"mangle":	"__gmpz_set_q",
+		"c++":	"__gmpz_set_q(mpz_ptr, mpq_srcptr)",
+		"go":	"X__GmpzSetQ"
+	}, {
+		"mangle":	"__gmpz_set_si",
+		"c++":	"__gmpz_set_si(mpz_ptr, long)",
+		"go":	"X__GmpzSetSi"
+	}, {
+		"mangle":	"__gmpz_set_str",
+		"c++":	"__gmpz_set_str(mpz_ptr, const char *, int)",
+		"go":	"X__GmpzSetStr"
+	}, {
+		"mangle":	"__gmpz_set_ui",
+		"c++":	"__gmpz_set_ui(mpz_ptr, unsigned long)",
+		"go":	"X__GmpzSetUi"
+	}, {
+		"mangle":	"__gmpz_setbit",
+		"c++":	"__gmpz_setbit(mpz_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzSetbit"
+	}, {
+		"mangle":	"__gmpz_si_kronecker",
+		"c++":	"__gmpz_si_kronecker(long, mpz_srcptr)",
+		"go":	"X__GmpzSiKronecker"
+	}, {
+		"mangle":	"__gmpz_size",
+		"c++":	"__gmpz_size(mpz_srcptr)",
+		"go":	"X__GmpzSize"
+	}, {
+		"mangle":	"__gmpz_sizeinbase",
+		"c++":	"__gmpz_sizeinbase(mpz_srcptr, int)",
+		"go":	"X__GmpzSizeinbase"
+	}, {
+		"mangle":	"__gmpz_sqrt",
+		"c++":	"__gmpz_sqrt(mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzSqrt"
+	}, {
+		"mangle":	"__gmpz_sqrtrem",
+		"c++":	"__gmpz_sqrtrem(mpz_ptr, mpz_ptr, mpz_srcptr)",
+		"go":	"X__GmpzSqrtrem"
+	}, {
+		"mangle":	"__gmpz_sub",
+		"c++":	"__gmpz_sub(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzSub"
+	}, {
+		"mangle":	"__gmpz_sub_ui",
+		"c++":	"__gmpz_sub_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzSubUi"
+	}, {
+		"mangle":	"__gmpz_submul",
+		"c++":	"__gmpz_submul(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzSubmul"
+	}, {
+		"mangle":	"__gmpz_submul_ui",
+		"c++":	"__gmpz_submul_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzSubmulUi"
+	}, {
+		"mangle":	"__gmpz_swap",
+		"c++":	"__gmpz_swap(mpz_ptr, mpz_ptr)",
+		"go":	"X__GmpzSwap"
+	}, {
+		"mangle":	"__gmpz_tdiv_q",
+		"c++":	"__gmpz_tdiv_q(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzTdivQ"
+	}, {
+		"mangle":	"__gmpz_tdiv_q_2exp",
+		"c++":	"__gmpz_tdiv_q_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzTdivQ2exp"
+	}, {
+		"mangle":	"__gmpz_tdiv_q_ui",
+		"c++":	"__gmpz_tdiv_q_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzTdivQUi"
+	}, {
+		"mangle":	"__gmpz_tdiv_qr",
+		"c++":	"__gmpz_tdiv_qr(mpz_ptr, mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzTdivQr"
+	}, {
+		"mangle":	"__gmpz_tdiv_qr_ui",
+		"c++":	"__gmpz_tdiv_qr_ui(mpz_ptr, mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzTdivQrUi"
+	}, {
+		"mangle":	"__gmpz_tdiv_r",
+		"c++":	"__gmpz_tdiv_r(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzTdivR"
+	}, {
+		"mangle":	"__gmpz_tdiv_r_2exp",
+		"c++":	"__gmpz_tdiv_r_2exp(mpz_ptr, mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzTdivR2exp"
+	}, {
+		"mangle":	"__gmpz_tdiv_r_ui",
+		"c++":	"__gmpz_tdiv_r_ui(mpz_ptr, mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzTdivRUi"
+	}, {
+		"mangle":	"__gmpz_tdiv_ui",
+		"c++":	"__gmpz_tdiv_ui(mpz_srcptr, unsigned long)",
+		"go":	"X__GmpzTdivUi"
+	}, {
+		"mangle":	"__gmpz_tstbit",
+		"c++":	"__gmpz_tstbit(mpz_srcptr, mp_bitcnt_t)",
+		"go":	"X__GmpzTstbit"
+	}, {
+		"mangle":	"__gmpz_ui_kronecker",
+		"c++":	"__gmpz_ui_kronecker(unsigned long, mpz_srcptr)",
+		"go":	"X__GmpzUiKronecker"
+	}, {
+		"mangle":	"__gmpz_ui_pow_ui",
+		"c++":	"__gmpz_ui_pow_ui(mpz_ptr, unsigned long, unsigned long)",
+		"go":	"X__GmpzUiPowUi"
+	}, {
+		"mangle":	"__gmpz_ui_sub",
+		"c++":	"__gmpz_ui_sub(mpz_ptr, unsigned long, mpz_srcptr)",
+		"go":	"X__GmpzUiSub"
+	}, {
+		"mangle":	"__gmpz_urandomb",
+		"c++":	"__gmpz_urandomb(mpz_ptr, gmp_randstate_ptr, mp_bitcnt_t)",
+		"go":	"X__GmpzUrandomb"
+	}, {
+		"mangle":	"__gmpz_urandomm",
+		"c++":	"__gmpz_urandomm(mpz_ptr, gmp_randstate_ptr, mpz_srcptr)",
+		"go":	"X__GmpzUrandomm"
+	}, {
+		"mangle":	"__gmpz_xor",
+		"c++":	"__gmpz_xor(mpz_ptr, mpz_srcptr, mpz_srcptr)",
+		"go":	"X__GmpzXor"
+	}]
