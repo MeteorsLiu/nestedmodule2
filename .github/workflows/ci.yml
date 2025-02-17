@@ -39,7 +39,7 @@ jobs:
       - name: Install dependencies
         if: startsWith(matrix.os, 'macos')
         run: |
-          brew install llvm@${{ matrix.llvm }} bdw-gc openssl libffi conan cmake
+          brew install llvm@${{ matrix.llvm }} bdw-gc openssl libffi conan cmake libuv
           brew link --force libffi
           echo "$(brew --prefix llvm@${{ matrix.llvm }})/bin" >> $GITHUB_PATH
           # llcppg dependencies
@@ -50,7 +50,7 @@ jobs:
           echo "deb http://apt.llvm.org/$(lsb_release -cs)/ llvm-toolchain-$(lsb_release -cs)-${{ matrix.llvm }} main" | sudo tee /etc/apt/sources.list.d/llvm.list
           wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
           sudo apt-get update
-          sudo apt-get install -y python3 python3-pip llvm-${{ matrix.llvm }}-dev clang-${{ matrix.llvm }} libunwind-dev libclang-${{ matrix.llvm }}-dev lld-${{ matrix.llvm }} cmake pkg-config libgc-dev libssl-dev zlib1g-dev libffi-dev libcjson-dev
+          sudo apt-get install -y python3 python3-pip llvm-${{ matrix.llvm }}-dev libuv1-dev clang-${{ matrix.llvm }} libunwind-dev libclang-${{ matrix.llvm }}-dev lld-${{ matrix.llvm }} cmake pkg-config libgc-dev libssl-dev zlib1g-dev libffi-dev libcjson-dev
           echo "/usr/lib/llvm-${{ matrix.llvm }}/bin" >> $GITHUB_PATH
           python3 -m pip install conan
       - name: Check conan
@@ -69,7 +69,6 @@ jobs:
           git clone https://github.com/goplus/llcppg.git
           echo $PWD
           cd llcppg
-          git reset --hard f1575e37589dc3d3605c5327a8b18789a312d2e7
           llgo install ./_xtool/llcppsymg
           llgo install ./_xtool/llcppsigfetch
           go install ./cmd/llcppcfg
