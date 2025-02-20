@@ -1,0 +1,11 @@
+prefix=/home/runner/.conan2/p/b/gmp35b895bd4ce93/p
+libdir=${prefix}/lib
+includedir=${prefix}/include
+bindir=${prefix}/bin
+
+Name: gmp-all-do-not-use
+Description: Conan package: gmp-all-do-not-use
+Version: 6.3.0
+Libs: -L"${libdir}"
+Cflags: -I"${includedir}"
+Requires: gmp gmpxx
