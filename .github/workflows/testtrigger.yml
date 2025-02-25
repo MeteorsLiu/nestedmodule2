@@ -1,0 +1,12 @@
+name: Continuous Integration
+
+on:
+  label:
+    types: [created]
+
+jobs:
+  test-label-trigger:
+    steps:
+      - name: Checkout  
+        run: |
+          echo "hello"
