@@ -57,7 +57,7 @@ jobs:
           conan -v
       - name: Install LLGO
         run: |
-          go install -v github.com/goplus/llgo/compiler/cmd
+          go install -v github.com/goplus/llgo/compiler
       - name: Install LLCppg
         run: |
           git clone https://github.com/goplus/llcppg.git
