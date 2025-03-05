@@ -58,12 +58,7 @@ jobs:
           conan -v
       - name: Install LLGO
         run: |
-          git clone https://github.com/goplus/llgo.git
-          echo $PWD
-          cd llgo/compiler
-          go install -v ./cmd/...
-          export LLGO_ROOT=$GITHUB_WORKSPACE/llgo
-          echo "LLGO_ROOT=$LLGO_ROOT" >> $GITHUB_ENV
+          git clone https://github.com/goplus/llgo/compiler/cmd/...
       - name: Install LLCppg
         run: |
           git clone https://github.com/goplus/llcppg.git
@@ -71,9 +66,9 @@ jobs:
           cd llcppg
           llgo install ./_xtool/llcppsymg
           llgo install ./_xtool/llcppsigfetch
-          go install ./cmd/llcppcfg
-          go install ./cmd/gogensig
-          go install .
+          go install github.com/goplus/llcppg/cmd/llcppcfg@latest
+          go install github.com/goplus/llcppg/cmd/gogensig@latest
+          go install github.com/goplus/llcppg@latest
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v45
