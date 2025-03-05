@@ -1,0 +1,11 @@
+prefix=/Users/runner/.conan2/p/b/cjsone99493b2257f0/p
+libdir=${prefix}/lib
+includedir=${prefix}/include
+bindir=${prefix}/bin
+
+Name: cjson
+Description: Conan package: cjson
+Version: 1.7.18
+Libs: -L"${libdir}"
+Cflags: -I"${includedir}"
+Requires: libcjson
