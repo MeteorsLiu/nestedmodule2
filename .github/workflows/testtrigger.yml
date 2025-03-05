@@ -3,7 +3,8 @@ name: Legacy version maintenance
 on:
   label:
     types: [created]
-  
+permissions:
+  pull-requests: read
 
 jobs:
   maintenance:
