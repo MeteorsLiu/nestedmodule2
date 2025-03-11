@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         os:
-          - macos-latest
+          # - macos-latest
           - ubuntu-24.04
         llvm: [18]
     runs-on: ${{matrix.os}}
@@ -77,13 +77,14 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v45
-        
+
       - name: Generate Go Module
         id: gen-go-module
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
+          echo $GITHUB_EVENT_PATH
           nestedscript
 
       - name: Upload to artifact
