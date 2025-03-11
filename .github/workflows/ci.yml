@@ -32,6 +32,7 @@ jobs:
           go-version: "1.23"
       - name: Skip Cache Parser Tool
         run: |
+          echo $GITHUB_EVENT_PATH
           go env -w GOPRIVATE=github.com/MeteorsLiu/nestedscript
       - name: Set up Parser Tool
         run: |
